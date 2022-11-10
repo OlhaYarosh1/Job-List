@@ -1,11 +1,12 @@
+import JobList from './JobList/JobList';
+
 function App() {
-  return (
-    <div className="App">
-      <h1 className="text-8xl font-bold underline bg-red-600">
-        Hello world!
-      </h1>
-    </div>
-  );
+    return (
+        <div>
+            <JobList/>
+            <JobList/>
+        </div>
+    );
 }
 
 export default App;
