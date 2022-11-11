@@ -1,10 +1,9 @@
-import JobList from './JobList/JobList';
+import JobListPage from './JobListPage/JobListPage';
 
 function App() {
     return (
         <div>
-            <JobList/>
-            <JobList/>
+            <JobListPage/>
         </div>
     );
 }
