@@ -8,6 +8,8 @@ const JobComponent = () => {
             <div className='mt-6 ml-titleLeft w-title h-title font-sans not-italic bg-yellow-400 font-bold leading-title tracking-title text-title'>
                 Arbeit
             </div>
+            <div></div>
+            <img src='icons/Save.png' alt='' className='w-4 h-5 bg-boxColor mr-6 mt-saveT ml-saveL'/>
         </div>
     )
 }

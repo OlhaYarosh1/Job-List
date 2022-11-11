@@ -16,7 +16,7 @@ module.exports = {
       width: {
         max: '1400px',
         img: '85px',
-        title: '712px',
+        title: '50.86%',
       },
       height: {
         max: '2673px',
@@ -29,6 +29,9 @@ module.exports = {
         side: '260px',
         titleLeft: '127px',
         bottom: '64px',
+        titleRight: '561px',
+        saveL: '37.21%',
+        saveT: '29.33px',
       },
       fontFamily: {
         sans: ['Proxima Nova, sans-serif'],
