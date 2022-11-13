@@ -23,6 +23,8 @@ module.exports = {
         img: '85px',
         title: '50.86%',
         address: '68.5%',
+        locationIcon: '13px',
+        starIcon: '19px',
       },
       height: {
         max: '2673px',
@@ -30,6 +32,7 @@ module.exports = {
         title: '50px',
         component: '6.14%',
         address: '25px',
+        locationIcon: '18px',
       },
       margin: {
         top: '29px',
@@ -42,6 +45,9 @@ module.exports = {
         addressTop: '82px',
         imgTop: '14.63%',
         imgLeft: '1.14%',
+        locationIconT: '116px',
+        starL: '79.86%',
+        starT: '73px'
       },
       fontFamily: {
         sans: ['Proxima Nova, sans-serif'],

@@ -12,6 +12,14 @@ const JobComponent = ({ title, address }) => {
             <div className='w-address h-address mt-addressTop ml-titleLeft bg-boxColor absolute self-stretch text-address not-italic font-sans leading-title tracking-address font-normal'>
                 {address}
             </div>
+            <img src='icons/Location.png' alt='' className='w-locationIcon h-locationIcon bg-boxColor mt-locationIconT absolute ml-titleLeft'/>
+            <div className='absolute mt-starT w-24 h-20 bg-boxColor ml-starL'>
+                <img src='icons/Star.png' alt='' className='bg-boxColor inline-block'/>
+                <img src='icons/Star.png' alt='' className='bg-boxColor inline-block'/>
+                <img src='icons/Star.png' alt='' className='bg-boxColor inline-block'/>
+                <img src='icons/Star.png' alt='' className='bg-boxColor inline-block'/>
+                <img src='icons/Star.png' alt='' className='bg-boxColor inline-block'/>
+            </div>
             <img src='icons/Save.png' alt='' className='w-4 h-5 bg-boxColor mr-6 mt-saveT ml-saveL'/>
         </div>
     )
