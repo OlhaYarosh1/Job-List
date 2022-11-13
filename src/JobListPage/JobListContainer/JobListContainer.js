@@ -1,6 +1,7 @@
 import React from 'react'
 import JobComponent from './JobComponent/JobComponent';
 import { useSelector } from 'react-redux';
+import PageBox from './PageBox/PageBox';
 
 const JobListContainer = () => {
     const jobTITLE = useSelector(state => state.jobInfo.jobTITLE);
@@ -25,6 +26,7 @@ const JobListContainer = () => {
             <JobComponent/>
             <JobComponent/>
             <JobComponent/>
+            <PageBox/>
         </div>
     )
 }

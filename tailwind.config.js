@@ -25,6 +25,7 @@ module.exports = {
         address: '68.5%',
         locationIcon: '13px',
         starIcon: '19px',
+        pageBox: '36.79%'
       },
       height: {
         max: '2673px',
@@ -33,10 +34,16 @@ module.exports = {
         component: '6.14%',
         address: '25px',
         locationIcon: '18px',
+        pageBox: '52px'
+      },
+      borderRadius: {
+        pageBox: '10.4px'
       },
       margin: {
         top: '29px',
         side: '260px',
+        pageBoxSideL: '28.79%',
+        pageBoxSideR: '34.43%',
         titleLeft: '127px',
         bottom: '64px',
         titleRight: '40.07%',
@@ -47,7 +54,8 @@ module.exports = {
         imgLeft: '1.14%',
         locationIconT: '116px',
         starL: '79.86%',
-        starT: '73px'
+        starT: '73px',
+        pageBox: '49px'
       },
       fontFamily: {
         sans: ['Proxima Nova, sans-serif'],
