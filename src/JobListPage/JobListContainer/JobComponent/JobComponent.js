@@ -1,10 +1,11 @@
 import React from 'react';
 
-const JobComponent = ({ title, address }) => {
+const JobComponent = ({ title, address, picture }) => {
 
     return (
         <div className='flex-none order-none grow-0 flex flex-row h-component p-0 mb-2 relative bg-boxColor rounded-lg shadow-boxShadow'>
-            <div className='w-img h-img bg-red-600 mt-6 ml-4 absolute rounded-full'>
+            <div className='w-img h-img mt-6 ml-4 absolute rounded-full'>
+                <img src={picture} alt=''/>
             </div>
             <div className='mt-6 ml-titleLeft w-title h-title bg-boxColor font-sans not-italic font-bold leading-title tracking-title text-title'>
                 {title}

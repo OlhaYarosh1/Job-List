@@ -14,7 +14,7 @@ const UseFetchJobs = () => {
     const [jobAddress, setJobAddress] = useState();
     // const [jobBenefits, setJobBenefits] = useState();
     // const [jobLocation, setJobLocation] = useState();
-    // const [jobPictures, setJobPictures] = useState();
+    const [jobPictures, setJobPictures] = useState();
     // const [jobDescription, setJobDescription] = useState();
     // const [jobEmployment, setJobEmployment] = useState();
     // const [jobDate, setJobDate] = useState();
@@ -48,8 +48,8 @@ const UseFetchJobs = () => {
                 //     let jobBenefits = data[i]['benefits'][j];
                 //     setJobBenefits(jobBenefits);
                 // }
-                // let jobPictures = data[i]['pictures'];
-                // setJobPictures(jobPictures);
+                let jobPictures = data[i]['pictures'][0];
+                setJobPictures(jobPictures);
                 // let jobDescription = data[i]['description'];
                 // setJobDescription(jobDescription);
                 // for(let j = 0; j <= 1; j++) {
@@ -62,7 +62,7 @@ const UseFetchJobs = () => {
         });
     }, []);
 
-    return [jobTitle, jobAddress];
+    return [jobTitle, jobAddress, jobPictures];
 }
 
 export default UseFetchJobs;

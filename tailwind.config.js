@@ -12,6 +12,7 @@ module.exports = {
         component: '72.92%',
       },
       colors: {
+        mainColor: '#F5F5F5',
         boxColor: '#FFFFFF',
         grey07: '#70778B',
         title: '#3A4562',
@@ -25,7 +26,10 @@ module.exports = {
         address: '68.5%',
         locationIcon: '13px',
         starIcon: '19px',
-        pageBox: '36.79%'
+        pageBox: '36.79%',
+        arrow: '14.29px',
+        pageNumber: '31px',
+        arrow: '18px'
       },
       height: {
         max: '2673px',
@@ -34,7 +38,8 @@ module.exports = {
         component: '6.14%',
         address: '25px',
         locationIcon: '18px',
-        pageBox: '52px'
+        pageBox: '52px',
+        pageNumber: '31px',
       },
       borderRadius: {
         pageBox: '10.4px'
@@ -55,7 +60,14 @@ module.exports = {
         locationIconT: '116px',
         starL: '79.86%',
         starT: '73px',
-        pageBox: '49px'
+        pageBox: '49px',
+        arrowLeftL: '1.64%',
+        arrowLeftT: '17px',
+        arrowRightL: '33.79%',
+        separatorL: '4.88%',
+        separatorR: '31.81%',
+        separatorT: '10.4px',
+        pageNumbers: '8.93%',
       },
       fontFamily: {
         sans: ['Proxima Nova, sans-serif'],
@@ -63,6 +75,7 @@ module.exports = {
       fontSize: {
         title: '20px',
         address: '16px',
+        pagination: '20.8px'
       },
       lineHeight: {
         title: '25px'
@@ -70,6 +83,7 @@ module.exports = {
       letterSpacing: {
         title: '-0.625px',
         address: '0.23619px',
+        pagination: '1.73333px',
       }
     },
   },

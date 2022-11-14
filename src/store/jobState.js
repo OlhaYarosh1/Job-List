@@ -4,7 +4,8 @@ const jobInfo = createSlice({
     name: 'jobInfo',
     initialState: {
         jobTITLE: null,
-        jobADDRESS: null
+        jobADDRESS: null,
+        jobPICTURES: null,
     },
     reducers: {
         setJobTITLE(state, action) {
@@ -12,7 +13,10 @@ const jobInfo = createSlice({
         },
         setJobADDRESS(state, action) {
             state.jobADDRESS = action.payload;
-        }
+        },
+        setJobPICTURES(state, action) {
+            state.jobPICTURES = action.payload;
+        },
     }
 });
 
