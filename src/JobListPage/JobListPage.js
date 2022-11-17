@@ -1,20 +1,20 @@
 import React from 'react';
 import JobListContainer from './JobListContainer/JobListContainer'
 import UseFetchJobs from '../hooks/use-fetch-jobs';
-import { batch, useDispatch } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { jobInfoActions } from '../store/jobState';
 
 const JobList = () => {
     const dispatch = useDispatch();
 
-    const [jobTitle, jobAddress, jobPictures, jobLocation, jobDate] = UseFetchJobs();
-    batch(() => {
-        dispatch(jobInfoActions.setJobTITLE(jobTitle));
-        dispatch(jobInfoActions.setJobADDRESS(jobAddress));
-    })
+UseFetchJobs((data) => {
+    dispatch(jobInfoActions.setJobs(data));
+})
 
     return (
-        <JobListContainer/>
+        <div className='md:max-h-max sm:max-h-maxMobile'>
+            <JobListContainer/>
+        </div>
     )
 }
 

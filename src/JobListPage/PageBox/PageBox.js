@@ -5,7 +5,7 @@ import Button from '../../components/Button';
 const PageBox = () => {
     const [currentPage, setCurrentPage] = useState(1);
 
-    const handleChange = (event, value) => {
+    const handleChange = (event, value, index) => {
         setCurrentPage(value);
     };
 
@@ -24,7 +24,7 @@ const PageBox = () => {
                 title={<img src='icons/RightArrow.png' className='absolute bg-boxColor'/>}
             />
             <Pagination
-                title={currentPage}
+                title={currentPage + 1}
                 currentPage = {currentPage}
                 itemsCount = {20}
                 onPageChange = {handleChange}
