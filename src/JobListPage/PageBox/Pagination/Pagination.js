@@ -13,10 +13,10 @@ const Pagination = ({ currentPage, itemsCount, onPageChange, title }) => {
         <div className='flex absolute ml-pageNumbers bg-boxColor'>
             {pages.map((page, index) => (
                 <PaginationItem
-                    page={page}
+                    page={pagesCount}
                     key={page}
                     currentPage={currentPage}
-                    onPageChange={pagesCount}
+                    onPageChange={onPageChange}
                     title={index + 1}
                 />
             ))}
