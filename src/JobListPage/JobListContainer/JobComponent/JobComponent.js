@@ -3,12 +3,12 @@ import React from 'react';
 const JobComponent = ({ title, address, picture }) => {
 
     return (
-        <div className='flex-none order-none grow-0 flex flex-row md:h-component 
+        <div className='flex-none order-none grow-0 flex flex-row md:h-component
         lg:p-0 mb-2 relative lg:bg-boxColor md:bg-boxColor rounded-lg shadow-boxShadow sm:bg-mobile sm:h-mobile'>
             <div className='md:mt-6 md:ml-4 absolute bg-transparent sm:mt-imgTopMb sm:ml-imgLeftMb'>
                 <img src={picture} alt='' className='md:w-img md:h-img rounded-full sm:w-imgMob sm:h-imgMob'/>
             </div>
-            <div className='bg-transparent font-sans not-italic 
+            <div className='bg-transparent font-sans not-italic bg-red-600
             md:mt-6 md:ml-titleLeft md:w-title md:h-title md:font-bold md:leading-title md:tracking-title md:text-title 
             sm:mt-11 sm:ml-titleMobileLeft sm:w-titleMobile sm:h-12 sm:font-normal sm:leading-6 sm:tracking-titleMobile sm:text-titleMobile'>
                 <a href='/' className='bg-transparent hover:opacity-80'>{title}</a>
