@@ -5,8 +5,8 @@ const range = (start, end) => {
     return [...Array(end).keys()].map((element) => element + start);
 };
 
-const Pagination = ({ currentPage, itemsCount, onPageChange, title }) => {
-    const pagesCount = Math.ceil(itemsCount / 15);
+const Pagination = ({ currentPage, itemsCount, countPerPage, onPageChange, title }) => {
+    const pagesCount = Math.ceil(itemsCount / countPerPage);
     const pages = range(1, pagesCount);
 
     return (
@@ -16,7 +16,7 @@ const Pagination = ({ currentPage, itemsCount, onPageChange, title }) => {
                     page={pagesCount}
                     key={page}
                     currentPage={currentPage}
-                    onPageChange={onPageChange}
+                    onPageChange={() => onPageChange(index)}
                     title={index + 1}
                 />
             ))}

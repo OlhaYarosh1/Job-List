@@ -2,19 +2,22 @@ import React, { useState } from 'react';
 import Pagination from './Pagination/Pagination';
 import Button from '../../components/Button';
 
-const PageBox = () => {
-    const [currentPage, setCurrentPage] = useState();
+const PageBox = ({currentPage, itemsCount, countPerPage, onPageSelect}) => {
 
-    const handleChange = () => {
-        console.log(currentPage)
+    const handleChange = (pageNumber) => {
+        if (onPageSelect) {
+            onPageSelect(pageNumber);
+        }
     };
 
-    const handleChangeLeftArrow = () => {
-        console.log(currentPage - 1)
+    const handleChangeLeftArrow = (pageNumber, index) => {
+        if (onPageSelect) {
+            onPageSelect(pageNumber - 1);
+        }
     };
 
-    const handleChangeRightArrow = () => {
-        console.log(currentPage + 1)
+    const handleChangeRightArrow = (pageNumber, index) => {
+        onPageSelect(pageNumber + 1)
     };   
 
     return (
@@ -33,7 +36,8 @@ const PageBox = () => {
             />
             <Pagination
                 currentPage = {currentPage}
-                itemsCount = {20}
+                itemsCount = {itemsCount}
+                countPerPage={countPerPage}
                 onPageChange = {handleChange}
             />
         </div>
