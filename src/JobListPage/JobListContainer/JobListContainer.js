@@ -9,7 +9,7 @@ const JobListContainer = () => {
 
     const jobs = useSelector(state => state.jobInfo.jobs)
 
-    const COUNT_PER_PAGE = 7;
+    const COUNT_PER_PAGE = 4;
 
     const currentPage = useSelector(state => state.jobInfo.pageNumber)
 

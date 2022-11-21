@@ -5,19 +5,20 @@ import Button from '../../components/Button';
 const PageBox = ({currentPage, itemsCount, countPerPage, onPageSelect}) => {
 
     const handleChange = (pageNumber) => {
+        console.log(pageNumber)
+
         if (onPageSelect) {
             onPageSelect(pageNumber);
         }
     };
 
-    const handleChangeLeftArrow = (pageNumber, index) => {
-        if (onPageSelect) {
-            onPageSelect(pageNumber - 1);
-        }
+
+    const handleChangeLeftArrow = (pageNumber) => {
+        onPageSelect(currentPage - 1);
     };
 
-    const handleChangeRightArrow = (pageNumber, index) => {
-        onPageSelect(pageNumber + 1)
+    const handleChangeRightArrow = () => {
+        onPageSelect(currentPage + 1);
     };   
 
     return (
