@@ -6,8 +6,8 @@ const PaginationItem = ({ page, currentPage, onPageChange, title }) => {
         <Button 
             title={title} 
             onClick={() => onPageChange(page)} 
-            className='inline-block h-pageNumber mt-3 w-pageNumber font-sans not-italic bg-boxColor 
-            font-bold text-grey07 text-pagination tracking-pagination leading-title'
+            className='inline-block h-pageNumber mt-3 w-pageNumber font-sans not-italic bg-transparent focus:border-solid
+            font-bold text-grey07 text-pagination tracking-pagination leading-title focus:underline focus:decoration-pageNumber focus:text-pageNumber'
         >
             {page}
         </Button>

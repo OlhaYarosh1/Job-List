@@ -10,7 +10,7 @@ const Pagination = ({ currentPage, itemsCount, countPerPage, onPageChange, title
     const pages = range(1, pagesCount);
 
     return (
-        <div className='flex absolute ml-pageNumbers bg-boxColor'>
+        <div className='flex absolute ml-pageNumbers bg-transparent'>
             {pages.map((page, index) => (
                 <PaginationItem
                     page={pagesCount}

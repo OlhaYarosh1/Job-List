@@ -16,6 +16,9 @@ module.exports = {
       maxWidth: {
         component: '72.92%',
       },
+      minWidth: {
+        pagination: '36.79%',
+      },
       colors: {
         mainColor: '#F5F5F5',
         boxColor: '#FFFFFF',
@@ -25,7 +28,8 @@ module.exports = {
         address: '#878D9D',
         star: '#38415D',
         mobile: '#EFF0F5',
-        starMobile: '#384564'
+        starMobile: '#384564',
+        pageNumber: '#5876C5',
       },
       width: {
         max: '1400px',
@@ -115,8 +119,8 @@ module.exports = {
         title: '-0.625px',
         titleMobile: '-0.5625px',
         address: '0.23619px',
-        pagination: '1.73333px',
-      }
+        pagination: '0.3366%',
+      },
     },
   },
   plugins: [],
