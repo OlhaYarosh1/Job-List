@@ -1,5 +1,6 @@
 import React from 'react'
 import PaginationItem from './PaginationItem/PaginationItem';
+import classes from './Pagination.module.css';
 
 const range = (start, end) => {
     return [...Array(end).keys()].map((element) => element + start);
@@ -10,7 +11,7 @@ const Pagination = ({ currentPage, itemsCount, countPerPage, onPageChange, title
     const pages = range(1, pagesCount);
 
     return (
-        <div className='flex absolute ml-pageNumbers bg-transparent'>
+        <div className={classes.pagination}>
             {pages.map((page, index) => (
                 <PaginationItem
                     page={pagesCount}

@@ -1,0 +1,4 @@
+.pagination {
+    @apply flex absolute 
+    ml-pageNumbers bg-transparent
+}

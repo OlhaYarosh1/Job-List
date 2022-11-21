@@ -1,0 +1,29 @@
+.box {
+    @apply mb-16 mt-pageBox h-pageBox md:w-pageBoxbg-boxColor rounded-pageBox shadow-boxShadow md:ml-pageBoxSideL md:mr-pageBoxSideR
+}
+
+.leftArrow {
+    @apply cursor-pointer bg-transparent
+    absolute w-arrow h-locationIcon mt-2
+    ml-arrowLeftL mr-arrowLeftR
+}
+
+.rightArrow {
+    @apply cursor-pointer bg-transparent
+    absolute w-arrow h-locationIcon mt-2
+    ml-arrowRightL mr-arrowRightR
+}
+
+.imgSeparatorLeft {
+    @apply absolute bg-transparent
+    ml-separatorL mt-separatorT
+}
+
+.imgSeparatorRight {
+    @apply absolute bg-transparent
+    ml-separatorR mt-separatorT
+}
+
+.arrow {
+    @apply absolute bg-transparent
+}

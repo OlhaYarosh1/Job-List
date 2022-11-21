@@ -1,6 +1,6 @@
 import React from 'react'
 import {useDispatch, useSelector} from 'react-redux';
-import PageBox from '../PageBox/PageBox';
+import PaginationBox from '../PageBox/PaginationBox';
 import JobPage from './JobPage/JobPage';
 import { jobInfoActions } from '../../store/jobState';
 
@@ -29,7 +29,7 @@ const JobListContainer = () => {
         <div className='relative lg:max-w-component lg:ml-side lg:mr-side md:mt-top lg:mt-top sm:mt-listT lg:mb-bottom 
         ml-sideLMb mr-sideLMb md:mb-bottom sm:mb-bottomMobile'>
             <JobPage jobs={getJobsForPage(currentPage)}/>
-            <PageBox
+            <PaginationBox
                 currentPage={currentPage}
                 countPerPage={COUNT_PER_PAGE}
                 itemsCount={jobs ? jobs.length : 0}

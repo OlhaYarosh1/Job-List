@@ -1,0 +1,8 @@
+.paginationItem {
+    @apply inline-block h-pageNumber mt-3
+    w-pageNumber font-sans not-italic
+    bg-transparent font-bold text-grey07 
+    text-pagination tracking-pagination
+    leading-title focus:text-pageNumber
+    focus:decoration-pageNumber focus:underline
+}
