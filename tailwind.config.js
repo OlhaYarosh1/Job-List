@@ -47,7 +47,8 @@ module.exports = {
         pageBox: '36.79%',
         arrow: '14.29px',
         pageNumber: '31px',
-        arrow: '18px'
+        arrow: '18px',
+        postedAt: '138px'
       },
       height: {
         max: '2673px',
@@ -63,6 +64,7 @@ module.exports = {
         pageBox: '52px',
         pageNumber: '31px',
         mobile: '206px',
+        postedAt: '67px',
       },
       borderRadius: {
         pageBox: '10.4px'
@@ -103,7 +105,10 @@ module.exports = {
         separatorT: '10.4px',
         pageNumbers: '8.93%',
         sideLMb: '2.17%',
-        listT: '9px'
+        listT: '9px',
+        postedTop: '115px',
+        postedR: '16px',
+        postedL: '89%'
       },
       fontFamily: {
         sans: ['Proxima Nova, sans-serif'],

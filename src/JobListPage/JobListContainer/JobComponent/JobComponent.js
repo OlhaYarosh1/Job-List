@@ -34,8 +34,8 @@ const JobComponent = ({ title, address, picture, createdAt }) => {
             <div className='bg-transparent absolute md:ml-saveL flex justify-end'>
                 <img src='icons/Save.png' alt='' className='hover:scale-110 cursor-pointer md:w-4 md:h-5 sm:w-0 sm:h-0 md:mr-saveR md:mt-saveT bg-transparent'/>
             </div>
-            <div>
-                {createdAt}
+            <div className='flex justify-end absolute h-postedAt ml-postedL bg-transparent'>
+                <div className='mr-postedR mt-postedTop text-address'>Posted 3885 days ago</div>
             </div>
         </div>
     )
