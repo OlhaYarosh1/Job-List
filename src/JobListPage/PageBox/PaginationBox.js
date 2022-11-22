@@ -13,8 +13,7 @@ const PaginationBox = ({currentPage, itemsCount, countPerPage, onPageSelect}) =>
         }
     };
 
-
-    const handleChangeLeftArrow = (pageNumber) => {
+    const handleChangeLeftArrow = () => {
         onPageSelect(currentPage - 1);
     };
 

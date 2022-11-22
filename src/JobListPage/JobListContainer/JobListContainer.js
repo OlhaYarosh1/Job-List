@@ -3,11 +3,13 @@ import {useDispatch, useSelector} from 'react-redux';
 import PaginationBox from '../PageBox/PaginationBox';
 import JobPage from './JobPage/JobPage';
 import { jobInfoActions } from '../../store/jobState';
+import jobsJson from './jobs.json'
 
 const JobListContainer = () => {
     const dispatch = useDispatch();
 
-    const jobs = useSelector(state => state.jobInfo.jobs)
+    //const jobs = useSelector(state => state.jobInfo.jobs)
+    const jobs = jobsJson;
 
     const COUNT_PER_PAGE = 4;
 
@@ -21,8 +23,13 @@ const JobListContainer = () => {
         }
         return jobs.slice(start, end);
     }
+
+    let lastPage = Math.ceil(jobs.length / COUNT_PER_PAGE)
     const handlePageSelect = (pageNumber) => {
-        dispatch(jobInfoActions.setPageNumber(pageNumber))
+        console.log(lastPage)
+        if (pageNumber >= 0 && pageNumber < lastPage) {
+            dispatch(jobInfoActions.setPageNumber(pageNumber))
+        }
     }
 
     return (

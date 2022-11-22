@@ -1,5 +1,6 @@
 .box {
-    @apply mb-16 mt-pageBox h-pageBox md:w-pageBoxbg-boxColor rounded-pageBox shadow-boxShadow md:ml-pageBoxSideL md:mr-pageBoxSideR
+    @apply mb-16 mt-pageBox h-pageBox rounded-pageBox shadow-boxShadow 
+    /* md:ml-pageBoxSideL md:mr-pageBoxSideR md:w-pageBoxbg-boxColor */
 }
 
 .leftArrow {
