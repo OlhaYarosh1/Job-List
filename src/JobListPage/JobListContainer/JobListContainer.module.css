@@ -1,0 +1,4 @@
+.container {
+    @apply relative lg:max-w-component lg:ml-side lg:mr-side md:mt-top lg:mt-top sm:mt-listT lg:mb-bottom 
+    ml-sideLMb mr-sideLMb md:mb-bottom sm:mb-bottomMobile
+}

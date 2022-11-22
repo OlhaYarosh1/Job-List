@@ -3,7 +3,8 @@ import {useDispatch, useSelector} from 'react-redux';
 import PaginationBox from '../PageBox/PaginationBox';
 import JobPage from './JobPage/JobPage';
 import { jobInfoActions } from '../../store/jobState';
-import jobsJson from './jobs.json'
+import jobsJson from './jobs.json';
+import classes from './JobListContainer.module.css'
 
 const JobListContainer = () => {
     const dispatch = useDispatch();
@@ -33,8 +34,7 @@ const JobListContainer = () => {
     }
 
     return (
-        <div className='relative lg:max-w-component lg:ml-side lg:mr-side md:mt-top lg:mt-top sm:mt-listT lg:mb-bottom 
-        ml-sideLMb mr-sideLMb md:mb-bottom sm:mb-bottomMobile'>
+        <div className={classes.container}>
             <JobPage jobs={getJobsForPage(currentPage)}/>
             <PaginationBox
                 currentPage={currentPage}
