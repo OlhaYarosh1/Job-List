@@ -1,6 +1,6 @@
 import React from 'react';
 
-const JobComponent = ({ title, address, picture }) => {
+const JobComponent = ({ title, address, picture, createdAt }) => {
 
     return (
         <div className='flex-none order-none grow-0 flex flex-row md:h-component
@@ -33,6 +33,9 @@ const JobComponent = ({ title, address, picture }) => {
             </div>
             <div className='bg-transparent absolute md:ml-saveL flex justify-end'>
                 <img src='icons/Save.png' alt='' className='hover:scale-110 cursor-pointer md:w-4 md:h-5 sm:w-0 sm:h-0 md:mr-saveR md:mt-saveT bg-transparent'/>
+            </div>
+            <div>
+                {createdAt}
             </div>
         </div>
     )
