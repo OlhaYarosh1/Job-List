@@ -1,7 +1,7 @@
 import React from 'react';
 import classes from './JobComponent.module.css'
 
-const JobComponent = ({ title, address, picture, createdAt }) => {
+const JobComponent = ({ title, address, picture, daysAgo }) => {
 
     return (
         <div className={classes.component}>
@@ -29,7 +29,7 @@ const JobComponent = ({ title, address, picture, createdAt }) => {
                 <img src='icons/Save.png' alt='' className={classes.save}/>
             </div>
             <div className={classes.postedBox}>
-                <div className={classes.posted}>Posted 3885 days ago</div>
+                <div className={classes.posted}>Posted {daysAgo} days ago</div>
             </div>
         </div>
     )
