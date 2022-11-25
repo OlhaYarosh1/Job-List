@@ -9,7 +9,7 @@ const JobComponent = ({ title, address, picture, daysAgo }) => {
                 <img src={picture} alt='' className={classes.imgPicture}/>
             </div>
             <div className={classes.title}>
-                <a href='/' className={classes.titleHref}>{title}</a>
+                <a href='/DetailedPage' className={classes.titleHref}>{title}</a>
             </div>
             <div className={classes.address}>
                 {address}
