@@ -4,7 +4,7 @@ import classes from './DetailedJobComponent.module.css';
 
 const DetailedJobComponent = () => {
     return (
-        <div>
+        <div className={classes.detailedPage}>
             <div className={classes.commonPart}> 
                 <div className={classes.upperPart}>
                     <div className={classes.title}>Job Details</div>

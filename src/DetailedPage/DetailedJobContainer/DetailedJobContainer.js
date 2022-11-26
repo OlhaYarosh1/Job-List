@@ -3,7 +3,7 @@ import DetailedJobComponent from './DetailedJobComponent/DetailedJobComponent';
 
 const DetailedJobContainer = () => {
     return (
-        <div>
+        <div className=''>
             <DetailedJobComponent/>
         </div>
     )

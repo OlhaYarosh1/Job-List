@@ -3,6 +3,7 @@ import JobListContainer from './JobListContainer/JobListContainer'
 import UseFetchJobs from '../hooks/use-fetch-jobs';
 import { useDispatch } from 'react-redux';
 import { jobInfoActions } from '../store/jobState';
+import classes from './JobListPage.module.css'
 
 const JobList = () => {
     const dispatch = useDispatch();
@@ -12,7 +13,7 @@ UseFetchJobs((data) => {
 })
 
     return (
-        <div className='md:max-h-max sm:max-h-maxMobile'>
+        <div className='md:max-h-max bg-mainColor'>
             <JobListContainer/>
         </div>
     )

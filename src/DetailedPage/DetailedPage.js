@@ -1,9 +1,10 @@
 import React from 'react';
 import DetailedJobContainer from './DetailedJobContainer/DetailedJobContainer';
+import classes from './DetailedPage.module.css'
 
 const DetailedPage = () => {
     return (
-        <div>
+        <div className={classes.detailedPage}>
             <DetailedJobContainer/>
         </div>
     )
