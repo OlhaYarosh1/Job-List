@@ -16,7 +16,25 @@
     @apply font-sans;
 }
 
-.applyNow:active {
+.applyNowBottom {
+    position: absolute;
+    background-color: #384564;
+    border-radius: 8px;
+    width: 127px;
+    height: 52px;
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 600;
+    font-style: normal;
+    margin-top: 650px;
+    margin-left: 18.07%;
+    @apply font-sans; 
+}
+
+.applyNow:active, .applyNowBottom:active {
     transform: scale(.98);
 }
 
@@ -27,6 +45,15 @@
     color: #3A4562;
     margin-top: 99px;
     margin-left: 18.07%;
+}
+
+.lineAdditional {
+    position: absolute;
+    width: 37.66%;
+    height: 1px;
+    color: #3A4562;
+    margin-top: 831px;
+    margin-left: 18.23%;
 }
 
 .title {
@@ -81,4 +108,28 @@
     font-weight: 400;
     color: #3A4562;
     font-stretch: 100;
+}
+
+.compensation {
+    position: absolute;
+    margin-top: 537px;
+    margin-left: 18.07%;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: -0.625px;
+    color: #3A4562;
+    @apply font-sans;
+}
+
+.additionalInfo {
+    font-weight: 700;
+    position: absolute;
+    font-size: 28px;
+    line-height: 34.1px;
+    letter-spacing: 0.413333px;
+    color: #3A4562;
+    margin-top: 788px;
+    margin-left: 18.28%;
+    @apply font-sans;
 }
