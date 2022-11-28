@@ -29,7 +29,7 @@ const DetailedJobComponent = () => {
                 <hr className={classes.lineAdditional}/>
                 <div className={classes.employmentTypeTitle}>Employment type</div>
                 <div className={classes.employmentTypeBox}>
-                    <div className={classes.employmentTitle}>Full time</div> //
+                    <div className={classes.employmentTitle}>Full time</div>
                 </div>
                 <div className={classes.benefitsTitle}>Benefits</div>
                 <div className={classes.benefitsBox}>

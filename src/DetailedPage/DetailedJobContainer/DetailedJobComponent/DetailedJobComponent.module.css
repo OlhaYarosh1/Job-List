@@ -90,7 +90,7 @@
     font-size: 18px;
     line-height: 24px;
     letter-spacing: -0.5625px;
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     color: #3A4562;
     font-stretch: 100;
@@ -113,5 +113,85 @@
     line-height: 25px;
     letter-spacing: -0.625px;
     color: #3A4562;
+    @apply font-sans;
+}
+
+.employmentTypeTitle {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.5625px;
+    color: #3A4562;
+    font-stretch: 100;
+    margin-top: 847px;
+    margin-left: 18.07%;
+}
+
+.benefitsTitle {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.5625px;
+    color: #3A4562;
+    font-stretch: 100;
+    margin-top: 953px;
+    margin-left: 17.97%;
+}
+
+.employmentTypeBox {
+    width: 222px;
+    height: 49px;
+    box-sizing: border-box;
+    position: absolute;
+    background: rgba(161, 177, 219, 0.317343);
+    border: 1px solid rgba(85, 105, 158, 0.3);
+    border-radius: 8px;
+    margin-left: 18.07%;
+    margin-top: 881px;
+}
+
+.benefitsBox {
+    width: 220px;
+    height: 50px;
+    box-sizing: border-box;
+    position: absolute;
+    background: rgba(255, 207, 0, 0.15);
+    border: 1px solid #FFCF00;
+    border-radius: 8px;
+    margin-left: 18.07%;
+    margin-top: 987px;
+}
+
+.employmentTitle {
+    background-color: transparent;
+    width: 222px;
+    margin-top: 17px;
+    position: absolute;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: -0.457143px;
+    color: #55699E;
+    @apply font-sans;
+}
+
+.benefitsBoxTitle {
+    background-color: transparent;
+    width: 220px;
+    margin-top: 17px;
+    position: absolute;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: -0.4px;
+    color: #988B49;
     @apply font-sans;
 }
