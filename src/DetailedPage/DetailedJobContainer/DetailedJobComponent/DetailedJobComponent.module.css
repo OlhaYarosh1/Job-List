@@ -21,10 +21,12 @@
 }
 
 .line {
+    position: absolute;
     width: 37.66%;
     height: 1px;
     color: #3A4562;
-    opacity: 0.13;
+    margin-top: 99px;
+    margin-left: 18.07%;
 }
 
 .title {
@@ -37,4 +39,46 @@
     margin-top: 56px;
     margin-left: 18.125%;
     @apply font-sans;
+}
+
+.saveIcon {
+    position: absolute;
+    width: 16px;
+    height: 20px;
+    margin-top: 65.33px;
+    margin-left: 42.84%;
+}
+
+.saveTitle {
+    position: absolute;
+    margin-top: 64px;
+    margin-left: 44.51%;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.5625px;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    color: #3A4562;
+    font-stretch: 100;
+}
+
+.shareIcon {
+    position: absolute;
+    width: 18px;
+    height: 20px;
+    margin-top: 66px;
+    margin-left: 51.8%;
+}
+
+.shareTitle {
+    position: absolute;
+    margin-top: 64px;
+    margin-left: 53.52%;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.5625px;
+    font-family: Roboto, sans-serif;;
+    font-weight: 400;
+    color: #3A4562;
+    font-stretch: 100;
 }
