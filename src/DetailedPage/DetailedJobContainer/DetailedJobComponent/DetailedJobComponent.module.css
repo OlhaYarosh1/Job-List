@@ -14,6 +14,42 @@
     @apply font-sans;
 }
 
+.return {
+    position: absolute;
+    width: 213px;
+    height: 50px;
+    margin-bottom: 162px;
+    background-color: rgba(56, 69, 100, 0.14);
+    position: absolute;
+    border-radius: 8px;
+    margin-left: 13.44%;
+    margin-top: 1402px;
+}
+
+.returnTitle {
+    position: absolute;
+    background-color: transparent;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #3A4562;
+    @apply font-sans;
+    margin-top: 1420px;
+    margin-left: 16.15%;
+}
+
+.arrowIcon {
+    width: 10px;
+    background-color: transparent;
+    cursor: pointer;
+    height: 18px;
+    position: absolute;
+    margin-top: 1418px;
+    margin-left: 14.64%;
+}
+
 .applyNow {
     margin-top: 139px;
     margin-left: 18.07%;
@@ -24,23 +60,33 @@
     margin-left: 18.07%;
 }
 
-.applyNow:active, .applyNowBottom:active {
+.applyNow:active, .applyNowBottom:active, .return:active {
     transform: scale(.98);
 }
 
 .line, .lineAdditional {
     position: absolute;
-    width: 37.66%;
     height: 1px;
     color: #3A4562;
+}
+
+.lineImages {
+    position: absolute;
+    width: 36.51%;
+    height: 1px;
+    color: #3A4562;
+    margin-top: 1167px;
+    margin-left: 18.23%;
 }
 
 .line {
     margin-top: 99px;
     margin-left: 18.07%;
+    width: 37.66%;
 }
 
 .lineAdditional {
+    width: 36.51%;
     margin-top: 831px;
     margin-left: 18.23%;
 }
@@ -52,6 +98,18 @@
     letter-spacing: 0.413333px;
     color: #3A4562;
     @apply font-sans;
+}
+
+.attachedImages {
+    position: absolute;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 0.413333px;
+    color: #3A4562;
+    @apply font-sans;
+    margin-top: 1124px;
+    margin-left: 18.28%;
 }
 
 .title {
@@ -194,4 +252,12 @@
     letter-spacing: -0.4px;
     color: #988B49;
     @apply font-sans;
+}
+
+.imagesAttached {
+    width: 200px;
+    position: absolute;
+    height: 133px;
+    margin-left: 18.7%;
+    margin-top: 1180px;
 }
