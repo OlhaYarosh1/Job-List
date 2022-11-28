@@ -1,4 +1,4 @@
-.applyNow {
+.applyNow, .applyNowBottom {
     position: absolute;
     background-color: #384564;
     border-radius: 8px;
@@ -11,75 +11,82 @@
     line-height: 16px;
     font-weight: 600;
     font-style: normal;
-    margin-top: 139px;
-    margin-left: 18.07%;
     @apply font-sans;
 }
 
+.applyNow {
+    margin-top: 139px;
+    margin-left: 18.07%;
+}
+
 .applyNowBottom {
-    position: absolute;
-    background-color: #384564;
-    border-radius: 8px;
-    width: 127px;
-    height: 52px;
-    color: #FFFFFF;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 12px;
-    line-height: 16px;
-    font-weight: 600;
-    font-style: normal;
     margin-top: 650px;
     margin-left: 18.07%;
-    @apply font-sans; 
 }
 
 .applyNow:active, .applyNowBottom:active {
     transform: scale(.98);
 }
 
-.line {
+.line, .lineAdditional {
     position: absolute;
     width: 37.66%;
     height: 1px;
     color: #3A4562;
+}
+
+.line {
     margin-top: 99px;
     margin-left: 18.07%;
 }
 
 .lineAdditional {
-    position: absolute;
-    width: 37.66%;
-    height: 1px;
-    color: #3A4562;
     margin-top: 831px;
     margin-left: 18.23%;
 }
 
-.title {
+.title, .additionalInfo {
     font-weight: 700;
     position: absolute;
     font-size: 28px;
-    line-height: 34px;
     letter-spacing: 0.413333px;
     color: #3A4562;
-    margin-top: 56px;
-    margin-left: 18.125%;
     @apply font-sans;
 }
 
-.saveIcon {
+.title {
+    line-height: 34px;
+    margin-top: 56px;
+    margin-left: 18.125%;
+}
+
+.additionalInfo {
+    line-height: 34.1px;
+    margin-top: 788px;
+    margin-left: 18.28%;
+}
+
+.saveIcon, .shareIcon {
     position: absolute;
-    width: 16px;
     height: 20px;
+
+}
+
+.saveIcon {
+    width: 16px;
     margin-top: 65.33px;
     margin-left: 42.84%;
 }
 
-.saveTitle {
+.shareIcon {
+    width: 18px;
+    margin-top: 66px;
+    margin-left: 51.8%;
+}
+
+.saveTitle, .shareTitle {
     position: absolute;
     margin-top: 64px;
-    margin-left: 44.51%;
     font-size: 18px;
     line-height: 24px;
     letter-spacing: -0.5625px;
@@ -89,25 +96,12 @@
     font-stretch: 100;
 }
 
-.shareIcon {
-    position: absolute;
-    width: 18px;
-    height: 20px;
-    margin-top: 66px;
-    margin-left: 51.8%;
+.saveTitle {
+    margin-left: 44.51%;
 }
 
 .shareTitle {
-    position: absolute;
-    margin-top: 64px;
     margin-left: 53.52%;
-    font-size: 18px;
-    line-height: 24px;
-    letter-spacing: -0.5625px;
-    font-family: Roboto, sans-serif;;
-    font-weight: 400;
-    color: #3A4562;
-    font-stretch: 100;
 }
 
 .compensation {
@@ -119,17 +113,5 @@
     line-height: 25px;
     letter-spacing: -0.625px;
     color: #3A4562;
-    @apply font-sans;
-}
-
-.additionalInfo {
-    font-weight: 700;
-    position: absolute;
-    font-size: 28px;
-    line-height: 34.1px;
-    letter-spacing: 0.413333px;
-    color: #3A4562;
-    margin-top: 788px;
-    margin-left: 18.28%;
     @apply font-sans;
 }
