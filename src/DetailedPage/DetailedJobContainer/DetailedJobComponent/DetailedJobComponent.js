@@ -2,7 +2,7 @@ import React from 'react';
 import Button from '../../../components/Button';
 import classes from './DetailedJobComponent.module.css';
 
-const DetailedJobComponent = ({picture}) => {
+const DetailedJobComponent = ({ picture }) => {
     return (
         <div className={classes.detailedPage}>
             <div className={classes.commonPart}> 
@@ -42,14 +42,14 @@ const DetailedJobComponent = ({picture}) => {
                     <img src={picture} alt='' className={classes.imagesAttached2}/>
                     <img src={picture} alt='' className={classes.imagesAttached3}/>
                 </div>
-                <Button 
+                <a href='/'><Button 
                     className={classes.return}
                     title='Return to job board'                  
                 />
                 <img src='icons/ButtonArrow.png' alt='' className={classes.arrowIcon}/>
+                </a>
             </div>
             <div className={classes.individualPart}>
-
             </div>
         </div>
     )
