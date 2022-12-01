@@ -18,25 +18,20 @@
     position: absolute;
     width: 213px;
     height: 50px;
-    background-color: rgba(56, 69, 100, 0.14);
+    background-color: rgba(56, 69, 100, 0.014);
     position: absolute;
     border-radius: 8px;
     margin-left: 13.44%;
     margin-top: 1402px;
-}
-
-.returnTitle {
-    position: absolute;
-    background-color: transparent;
     cursor: pointer;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 12px;
     line-height: 16px;
     text-transform: uppercase;
+    font-style: normal;
     color: #3A4562;
     @apply font-sans;
-    margin-top: 1420px;
-    margin-left: 16.15%;
+    text-align: right;
 }
 
 .applyNow {
@@ -111,7 +106,6 @@
 }
 
 .arrowIcon {
-    width: 10px;
     background-color: transparent;
     cursor: pointer;
     height: 18px;
@@ -184,7 +178,7 @@
 .employmentTypeBox {
     width: 222px;
     height: 49px;
-    background: rgba(161, 177, 219, 0.317343);
+    background: rgba(161, 177, 219, 0.0317343);
     border: 1px solid rgba(85, 105, 158, 0.3);
     margin-top: 881px;
 }
@@ -192,7 +186,7 @@
 .benefitsBox {
     width: 220px;
     height: 50px;
-    background: rgba(255, 207, 0, 0.15);
+    background: rgba(255, 207, 0, 0.015);
     border: 1px solid #FFCF00;
     margin-top: 987px;
 }
@@ -227,10 +221,22 @@
     @apply font-sans;
 }
 
-.imagesAttached {
+.imagesAttached, .imagesAttached2, .imagesAttached3 {
     width: 200px;
     position: absolute;
-    height: 133px;
-    margin-left: 18.7%;
+    height: 110px;
     margin-top: 1180px;
+    border-radius: 10px;
+}
+
+.imagesAttached {
+    margin-left: 18.28%;
+}
+
+.imagesAttached2 {
+    margin-left: 29.22%;
+}
+
+.imagesAttached3 {
+    margin-left: 40.16%;
 }
