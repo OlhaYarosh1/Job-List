@@ -1,11 +1,11 @@
 import React from 'react';
-import DetailedJobComponent from './DetailedJobComponent/DetailedJobComponent';
+import DetailedJobPage from './DetailedJobPage/DetailedJobPage';
 
 
 const DetailedJobContainer = () => {
     return (
         <div className=''>
-            <DetailedJobComponent/>
+            <DetailedJobPage/>
         </div>
     )
 }
