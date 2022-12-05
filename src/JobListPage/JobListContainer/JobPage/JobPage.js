@@ -5,7 +5,6 @@ import {DateUtils} from '../../../utils/DateUtils';
 const JobPage = ({ jobs }) => {
 
     const getJobComponent = (job, index) => {
-        console.log(index)
         return <JobComponent
             title={job.title}
             address={job.address}

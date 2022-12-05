@@ -8,14 +8,24 @@ import jobsJson from './JobListPage/JobListContainer/jobs.json'
 function App() {
 
     const jobs = jobsJson;
-    console.log(jobs[0].id)
+
+    const getListContent = () => {
+        if(jobs) {
+            return jobs.map((job, index) => {
+                console.log(job.id)
+                return (job.id)
+            })
+        }
+    }
+
+    console.log(getListContent())
 
     return (
         <Provider store={store}>
             <Router>
                 <Routes>
                     <Route path='/' element={<JobListPage/>}/>
-                    <Route path={'/DetailedPage/' + `${jobs[0].id}`} element={<DetailedPage/>}/>
+                    <Route path={'/DetailedPage/' + `${getListContent()}`} element={<DetailedPage/>}/>
                 </Routes>
             </Router>
         </Provider>

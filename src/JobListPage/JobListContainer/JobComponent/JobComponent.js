@@ -6,13 +6,22 @@ const JobComponent = ({ title, address, picture, daysAgo, index }) => {
 
     const jobs = jobsJson;
 
+    const getListContent = () => {
+        if(jobs) {
+            return jobs.map((job, index) => {
+                console.log(job.id)
+                return (job.id)
+            })
+        }
+    }
+
     return (
         <div className={classes.component}>
             <div className={classes.picture}>
                 <img src={picture} alt='' className={classes.imgPicture}/>
             </div>
             <div className={classes.title}>
-                <a href={'/DetailedPage/' + `${jobs[0].id}`} className={classes.titleHref}>{title}</a>
+                <a href={'/DetailedPage/' + `${getListContent()}`} className={classes.titleHref}>{title}</a>
             </div>
             <div className={classes.address}>
                 {address}
