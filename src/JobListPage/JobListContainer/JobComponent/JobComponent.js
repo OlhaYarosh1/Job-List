@@ -1,19 +1,7 @@
 import React from 'react';
 import classes from './JobComponent.module.css';
-import jobsJson from '../jobs.json'
 
-const JobComponent = ({ title, address, picture, daysAgo, index }) => {
-
-    const jobs = jobsJson;
-
-    const getListContent = () => {
-        if(jobs) {
-            return jobs.map((job, index) => {
-                console.log(job.id)
-                return (job.id)
-            })
-        }
-    }
+const JobComponent = ({ title, address, picture, daysAgo, index, jobId }) => {
 
     return (
         <div className={classes.component}>
@@ -21,7 +9,7 @@ const JobComponent = ({ title, address, picture, daysAgo, index }) => {
                 <img src={picture} alt='' className={classes.imgPicture}/>
             </div>
             <div className={classes.title}>
-                <a href={'/DetailedPage/' + `${getListContent()}`} className={classes.titleHref}>{title}</a>
+                <a href={'/DetailedPage/' + `${jobId}`} className={classes.titleHref}>{title}</a>
             </div>
             <div className={classes.address}>
                 {address}

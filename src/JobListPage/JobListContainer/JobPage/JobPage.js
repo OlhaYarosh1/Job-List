@@ -2,10 +2,11 @@ import React from 'react';
 import JobComponent from '../JobComponent/JobComponent';
 import {DateUtils} from '../../../utils/DateUtils';
 
-const JobPage = ({ jobs }) => {
+const JobPage = ({ jobs, jobId }) => {
 
     const getJobComponent = (job, index) => {
         return <JobComponent
+            jobId={job.id}
             title={job.title}
             address={job.address}
             picture={job.pictures.map((item) => item + `?random=${[0]}`)}

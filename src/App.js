@@ -3,29 +3,17 @@ import DetailedPage from './DetailedPage/DetailedPage';
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import { Provider } from 'react-redux';
 import store from './store/index';
-import jobsJson from './JobListPage/JobListContainer/jobs.json'
 
-function App() {
+function App({jobId}) {
 
-    const jobs = jobsJson;
-
-    const getListContent = () => {
-        if(jobs) {
-            return jobs.map((job, index) => {
-                console.log(job.id)
-                return (job.id)
-            })
-        }
-    }
-
-    console.log(getListContent())
+    console.log(jobId);
 
     return (
         <Provider store={store}>
             <Router>
                 <Routes>
                     <Route path='/' element={<JobListPage/>}/>
-                    <Route path={'/DetailedPage/' + `${getListContent()}`} element={<DetailedPage/>}/>
+                    <Route path={'/DetailedPage/' + `${jobId}`} element={<DetailedPage/>}/>
                 </Routes>
             </Router>
         </Provider>
