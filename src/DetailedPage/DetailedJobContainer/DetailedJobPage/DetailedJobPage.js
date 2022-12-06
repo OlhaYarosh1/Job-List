@@ -16,7 +16,8 @@ const DetailedJobPage = () => {
 
     const getJobComponent = (job, index) => {
         return <DetailedJobComponent
-            picture={job.pictures.map((item) => item + `?random=${[0]}`)}
+            jobId={job.id}
+            picture={job.pictures.map((item) => item + `?random=${Math.floor(Math.random() * 100000)}`)}
             title={job.title}
             key={index}
         />

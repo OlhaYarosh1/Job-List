@@ -38,9 +38,9 @@ const DetailedJobComponent = ({ picture }) => {
                 <div className={classes.attachedImages}>Attached images</div>
                 <hr className={classes.lineImages}/>
                 <div className='imagesGrid'>
-                    <img src={picture} alt='' className={classes.imagesAttached}/>
-                    <img src={picture} alt='' className={classes.imagesAttached2}/>
-                    <img src={picture} alt='' className={classes.imagesAttached3}/>
+                    <img src={picture[0]} alt='' className={classes.imagesAttached}/>
+                    <img src={picture[1]} alt='' className={classes.imagesAttached2}/>
+                    <img src={picture[2]} alt='' className={classes.imagesAttached3}/>
                 </div>
                 <a href='/'><Button 
                     className={classes.return}
@@ -50,6 +50,7 @@ const DetailedJobComponent = ({ picture }) => {
                 </a>
             </div>
             <div className={classes.individualPart}>
+                {}
             </div>
         </div>
     )

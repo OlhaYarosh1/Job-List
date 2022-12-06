@@ -1,7 +1,7 @@
 import React from 'react';
 import classes from './JobComponent.module.css';
 
-const JobComponent = ({ title, address, picture, daysAgo, index, jobId }) => {
+const JobComponent = ({ title, name, picture, daysAgo, index, jobId }) => {
 
     return (
         <div className={classes.component}>
@@ -12,7 +12,7 @@ const JobComponent = ({ title, address, picture, daysAgo, index, jobId }) => {
                 <a href={'/DetailedPage/' + `${jobId}`} className={classes.titleHref}>{title}</a>
             </div>
             <div className={classes.address}>
-                {address}
+                {name}
             </div>
             <img 
                 src='icons/Location.png' 
