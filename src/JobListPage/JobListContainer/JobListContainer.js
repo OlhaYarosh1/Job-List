@@ -6,7 +6,7 @@ import { jobInfoActions } from '../../store/jobState';
 import jobsJson from './jobs.json';
 import classes from './JobListContainer.module.css'
 
-const JobListContainer = () => {
+const JobListContainer = ({mySetData}) => {
     const dispatch = useDispatch();
 
     //const jobs = useSelector(state => state.jobInfo.jobs)
@@ -35,7 +35,7 @@ const JobListContainer = () => {
 
     return (
         <div className={classes.container}>
-            <JobPage jobs={getJobsForPage(currentPage)}/>
+            <JobPage jobs={getJobsForPage(currentPage)} mySetData={mySetData}/>
             <PaginationBox
                 currentPage={currentPage}
                 countPerPage={COUNT_PER_PAGE}

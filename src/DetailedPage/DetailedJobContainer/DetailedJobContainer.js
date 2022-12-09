@@ -2,10 +2,10 @@ import React from 'react';
 import DetailedJobPage from './DetailedJobPage/DetailedJobPage';
 
 
-const DetailedJobContainer = () => {
+const DetailedJobContainer = ({myId}) => {
     return (
         <div className=''>
-            <DetailedJobPage/>
+            <DetailedJobPage myId={myId}/>
         </div>
     )
 }

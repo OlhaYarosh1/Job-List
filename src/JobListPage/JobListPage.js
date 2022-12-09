@@ -5,7 +5,7 @@ import { useDispatch } from 'react-redux';
 import { jobInfoActions } from '../store/jobState';
 import classes from './JobListPage.module.css'
 
-const JobList = () => {    
+const JobList = ({mySetData}) => {    
     const dispatch = useDispatch();
 
     UseFetchJobs((data) => {
@@ -14,7 +14,7 @@ const JobList = () => {
 
     return (
         <div className='md:max-h-max bg-mainColor'>
-            <JobListContainer/>
+            <JobListContainer mySetData={mySetData}/>
         </div>
     )
 }

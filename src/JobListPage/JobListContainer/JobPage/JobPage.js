@@ -14,6 +14,7 @@ const JobPage = ({ jobs, jobId, mySetData }) => {
             daysAgo={DateUtils.calcDaysAgo(job.createdAt)}
             index={index}
             key={index}
+            mySetData={mySetData}
         />
     }
 

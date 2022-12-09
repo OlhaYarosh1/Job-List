@@ -1,9 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import classes from './JobComponent.module.css';
 
 const JobComponent = ({ title, name, picture, daysAgo, address, index, jobId, mySetData }) => {
 
-    function handleOnCkick() {
+    const handleOnClick = () => {
         mySetData(jobId)
     }
 
@@ -13,7 +14,8 @@ const JobComponent = ({ title, name, picture, daysAgo, address, index, jobId, my
                 <img src={picture} alt='' className={classes.imgPicture}/>
             </div>
             <div className={classes.title}>
-                <a href={'/DetailedPage/' + `${jobId}`} className={classes.titleHref} onClick={handleOnCkick}>{title}</a>
+                <Link to='/DetailedPage' className={classes.titleHref} onClick={handleOnClick}>{title}</Link>
+                {/* <a href={'/DetailedPage/' + `${jobId}`} className={classes.titleHref} onClick={handleOnCkick}>{title}</a> */}
             </div>
             <div className={classes.name}>
                 {name}

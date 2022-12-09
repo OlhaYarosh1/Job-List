@@ -2,7 +2,9 @@ import React from 'react';
 import DetailedJobComponent from '../DetailedJobComponent/DetailedJobComponent';
 import jobsJson from '../../../JobListPage/JobListContainer/jobs.json';
 
-const DetailedJobPage = () => {
+const DetailedJobPage = ({myId}) => {
+
+    console.log(myId)
 
     const jobs = jobsJson;
 
@@ -20,6 +22,7 @@ const DetailedJobPage = () => {
             picture={job.pictures.map((item) => item + `?random=${Math.floor(Math.random() * 100000)}`)}
             title={job.title}
             key={index}
+            myId={myId}
         />
     }
 
