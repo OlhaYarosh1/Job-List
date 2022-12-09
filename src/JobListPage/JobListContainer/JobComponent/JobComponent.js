@@ -1,7 +1,7 @@
 import React from 'react';
 import classes from './JobComponent.module.css';
 
-const JobComponent = ({ title, name, picture, daysAgo, index, jobId, mySetData }) => {
+const JobComponent = ({ title, name, picture, daysAgo, address, index, jobId, mySetData }) => {
 
     function handleOnCkick() {
         mySetData(jobId)
@@ -15,13 +15,17 @@ const JobComponent = ({ title, name, picture, daysAgo, index, jobId, mySetData }
             <div className={classes.title}>
                 <a href={'/DetailedPage/' + `${jobId}`} className={classes.titleHref} onClick={handleOnCkick}>{title}</a>
             </div>
-            <div className={classes.address}>
+            <div className={classes.name}>
                 {name}
             </div>
             <img 
                 src='icons/Location.png' 
                 alt='' 
-                className={classes.imgLocation}/>
+                className={classes.imgLocation}
+            />
+            <div className={classes.address}>
+                {address}
+            </div>
             <div className={classes.starsBox}>
                 <img src='icons/Star.png' alt='' className={classes.star}/>
                 <img src='icons/Star.png' alt='' className={classes.star}/>

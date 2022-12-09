@@ -28,12 +28,30 @@
     @apply bg-transparent hover:opacity-80
 }
 
-.address {
+.name {
     @apply bg-transparent absolute self-stretch not-italic font-sans
     font-normal leading-title text-address tracking-address
     md:w-address md:h-address md:mt-addressTop md:ml-titleLeft
     sm:w-addressMobile sm:h-addressMobile sm:mt-addressTopMobile
     sm:ml-titleMobileLeft
+}
+
+.address {
+    background-color: transparent;
+    position: absolute;
+    align-self: stretch;
+    font-style: normal;
+    font-family: Proxima Nova, sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+    font-size: 16px;
+    --tw-text-opacity: 1;
+    color: rgb(135 141 157 / var(--tw-text-opacity));
+    letter-spacing: 0.23619px;
+    width: 68.5%;
+    height: 25px;
+    margin-top: 115px;
+    margin-left: 148px;
 }
 
 .imgLocation {

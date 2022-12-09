@@ -84,6 +84,7 @@ module.exports = {
         saveR: '24px',
         saveT: '29.33px',
         addressTop: '82px',
+        addressT: '115px',
         addressTopMobile: '97px',
         imgTop: '14.63%',
         imgTopMb: '45px',
