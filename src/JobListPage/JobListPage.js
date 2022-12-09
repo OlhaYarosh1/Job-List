@@ -5,12 +5,12 @@ import { useDispatch } from 'react-redux';
 import { jobInfoActions } from '../store/jobState';
 import classes from './JobListPage.module.css'
 
-const JobList = () => {
+const JobList = () => {    
     const dispatch = useDispatch();
 
-UseFetchJobs((data) => {
-    dispatch(jobInfoActions.setJobs(data));
-})
+    UseFetchJobs((data) => {
+        dispatch(jobInfoActions.setJobs(data));
+    })
 
     return (
         <div className='md:max-h-max bg-mainColor'>

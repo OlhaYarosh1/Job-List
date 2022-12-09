@@ -2,7 +2,7 @@ import React from 'react';
 import JobComponent from '../JobComponent/JobComponent';
 import {DateUtils} from '../../../utils/DateUtils';
 
-const JobPage = ({ jobs, jobId }) => {
+const JobPage = ({ jobs, jobId, mySetData }) => {
 
     const getJobComponent = (job, index) => {
         return <JobComponent
