@@ -3,15 +3,15 @@
     width: 515px;
 }
 
-@media only screen and (min-width: 1544px) {
+@media only screen and (min-width: 1255px) {
     .box {
         margin-left: 28.79%;
     }
-}
-
-@media only screen and (max-width: 1544px) {
-    .box {
-        margin-left: 28.79%;
+    .rightArrow {
+        margin-left: 476.71px;
+    }
+    .imgSeparatorRight {
+        margin-left: 445.25px;
     }
 }
 
@@ -19,11 +19,23 @@
     .box {
         margin-left: 24%;
     }
+    .rightArrow {
+        margin-left: 476.71px;
+    }
+    .imgSeparatorRight {
+        margin-left: 445.25px;
+    }
 }
 
 @media only screen and (max-width: 1000px) {
     .box {
         margin-left: 15.51%;
+    }
+    .rightArrow {
+        margin-left: 476.71px;
+    }
+    .imgSeparatorRight {
+        margin-left: 445.25px;
     }
 }
 
@@ -31,11 +43,23 @@
     .box {
         margin-left: 9%;
     }
+    .rightArrow {
+        margin-left: 476.71px;
+    }
+    .imgSeparatorRight {
+        margin-left: 445.25px;
+    }
 }
 
 @media only screen and (max-width: 668px) {
     .box {
         margin-left: 4%;
+    }
+    .rightArrow {
+        margin-left: 476.71px;
+    }
+    .imgSeparatorRight {
+        margin-left: 445.25px;
     }
 }
 
@@ -63,7 +87,6 @@
     @apply cursor-pointer bg-transparent
     absolute w-arrow h-locationIcon mt-2
     mr-arrowRightR;
-    margin-left: 476.71px;
 }
 
 .imgSeparatorLeft {
@@ -75,7 +98,6 @@
 .imgSeparatorRight {
     @apply absolute bg-transparent
     mt-separatorT;
-    margin-left: 445.25px;
 }
 
 .arrow {
