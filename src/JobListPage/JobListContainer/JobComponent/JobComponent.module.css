@@ -78,7 +78,7 @@
 
 .save {
     @apply hover:scale-110 cursor-pointer md:w-4 md:h-5 sm:w-0
-    sm:h-0 md:mr-saveR md:mt-saveT bg-transparent
+    sm:h-0 md:mr-saveR md:mt-saveT bg-transparent;
 }
 
 .postedBox {

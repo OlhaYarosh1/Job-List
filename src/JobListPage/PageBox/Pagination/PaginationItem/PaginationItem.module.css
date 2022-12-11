@@ -1,9 +1,15 @@
 .paginationItem {
-    @apply inline-block h-10 mt-3
-    w-pageNumber font-sans not-italic
+    @apply inline-block
+    font-sans not-italic
     bg-transparent font-bold text-grey07 
     text-pagination tracking-pagination
     leading-title focus:text-pageNumber
     focus:border-pageNumber;
     border-bottom: 2.5px solid transparent;
+    margin-top: 9px;
+    align-items: center;
+    width: 30px;
+    font-family: 'Proxima Nova' sans-serif;
+    font-style: normal;
+    height: 43px;
 }

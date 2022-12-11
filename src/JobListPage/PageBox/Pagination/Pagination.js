@@ -10,10 +10,6 @@ const Pagination = ({ currentPage, itemsCount, countPerPage, onPageChange, title
     const pagesCount = Math.ceil(itemsCount / countPerPage);
     const pages = range(1, pagesCount);
 
-    // const focusRef = useRef(null);
-    // useEffect(() => {
-    //     focusRef.currentPage.focus
-    // }, []);
     return (
         <div className={classes.pagination}>
             {pages.map((page, index) => (

@@ -1,27 +1,81 @@
 .box {
-    @apply mb-16 mt-pageBox h-pageBox rounded-pageBox shadow-boxShadow md:ml-pageBoxSideL md:mr-pageBoxSideR md:w-pageBox md:bg-boxColor;
+    @apply mb-16 mt-pageBox h-pageBox rounded-pageBox shadow-boxShadow md:bg-boxColor;
+    width: 515px;
+}
+
+@media only screen and (min-width: 1544px) {
+    .box {
+        margin-left: 28.79%;
+    }
+}
+
+@media only screen and (max-width: 1544px) {
+    .box {
+        margin-left: 28.79%;
+    }
+}
+
+@media only screen and (max-width: 1255px) {
+    .box {
+        margin-left: 24%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .box {
+        margin-left: 15.51%;
+    }
+}
+
+@media only screen and (max-width: 758px) {
+    .box {
+        margin-left: 9%;
+    }
+}
+
+@media only screen and (max-width: 668px) {
+    .box {
+        margin-left: 4%;
+    }
+}
+
+@media only screen and (max-width: 614px) {
+    .box {
+        margin-left: 0%;
+        width: 100%;
+    }
+    .rightArrow {
+        margin-left: 92.65%;
+    }
+    .imgSeparatorRight {
+        margin-left: 86.49%;
+    }
 }
 
 .leftArrow {
     @apply cursor-pointer bg-transparent
     absolute w-arrow h-locationIcon mt-2
-    ml-arrowLeftL mr-arrowLeftR
+    ml-arrowLeftL mr-arrowLeftR;
+    margin-left: 23px;
 }
 
 .rightArrow {
     @apply cursor-pointer bg-transparent
     absolute w-arrow h-locationIcon mt-2
-    ml-arrowRightL mr-arrowRightR
+    mr-arrowRightR;
+    margin-left: 476.71px;
 }
 
 .imgSeparatorLeft {
     @apply absolute bg-transparent
-    ml-separatorL mt-separatorT
+    ml-separatorL mt-separatorT;
+    margin-left: 68.25px;
 }
 
 .imgSeparatorRight {
     @apply absolute bg-transparent
-    ml-separatorR mt-separatorT
+    mt-separatorT;
+    margin-left: 445.25px;
 }
 
 .arrow {

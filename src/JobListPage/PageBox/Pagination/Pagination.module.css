@@ -1,4 +1,7 @@
 .pagination {
-    @apply flex absolute 
-    ml-pageNumbers bg-transparent
+    @apply absolute 
+    bg-transparent;
+    max-width: 18.93%;
+    display: flex;
+    margin-left: 125px;
 }
