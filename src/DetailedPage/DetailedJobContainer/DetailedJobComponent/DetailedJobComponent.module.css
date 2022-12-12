@@ -201,11 +201,19 @@
 }
 
 .benefitsBox {
-    width: 220px;
+    width: 700px;
+    display: flex;
     height: 50px;
-    background: rgba(255, 207, 0, 0.15);
-    border: 1px solid #FFCF00;
+    background-color: transparent;
     margin-top: 1499px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: -0.4px;
+    color: #988B49;
+    @apply font-sans;
 }
 
 .employmentTitle {

@@ -18,6 +18,19 @@ const DetailedJobPage = ({myId}) => {
     let str = job.description;
     let description = str.split('\n');
 
+    console.log(job.benefits[0]);
+
+    const getBenefitsContent = () => {
+        return (job.benefits.map(e => (
+            <div
+              title={e}
+              className="flex justify-center items-center mr-[10px] w-[220px] h-[49px] border border-[#FFCF00] bg-[#FFCF00]/[0.15] text-[#988B49] font-bold text-base rounded-lg text-center"
+            >
+              {e}
+            </div>
+          )))
+    }
+
     const getJobComponent = (job) => {
         return <DetailedJobComponent
             jobId={job.id}
@@ -27,7 +40,8 @@ const DetailedJobPage = ({myId}) => {
             myId={myId}
             description={description[1]}
             responsibilities={description[4]}
-            benefits={description[7]}
+            benefitsDescription={description[7]}
+            benefits={getBenefitsContent()}
         />
     }
 

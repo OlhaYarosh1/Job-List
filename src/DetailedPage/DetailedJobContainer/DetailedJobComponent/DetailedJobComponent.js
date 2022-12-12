@@ -1,8 +1,9 @@
 import React from 'react';
 import Button from '../../../components/Button';
+import InfoBlock from '../../../components/InfoBlock';
 import classes from './DetailedJobComponent.module.css';
 
-const DetailedJobComponent = ({ picture, title, postedAt, description, responsibilities, benefits }) => {
+const DetailedJobComponent = ({ picture, title, postedAt, description, responsibilities, benefits, benefitsDescription }) => {
     return (
         <div className={classes.detailedPage}>
             <div className={classes.commonPart}> 
@@ -33,9 +34,10 @@ const DetailedJobComponent = ({ picture, title, postedAt, description, responsib
                     <div className={classes.employmentTitle}>Full time</div>
                 </div>
                 <div className={classes.benefitsTitle}>Benefits</div>
-                <div className={classes.benefitsBox}>
-                    <div className={classes.benefitsBoxTitle}>Flexible shedule</div> 
-                </div>
+                {/* <div className={classes.benefitsBox}>
+                    <div className={classes.benefitsBoxTitle}>{benefits}</div> 
+                </div> */}
+                <InfoBlock className={classes.benefitsBox} title={benefits}/>  
                 <div className={classes.attachedImages}>Attached images</div>
                 <hr className={classes.lineImages}/>
                 <div className='imagesGrid'>
@@ -63,8 +65,8 @@ const DetailedJobComponent = ({ picture, title, postedAt, description, responsib
                 <div className={classes.responsibilities}>
                     {responsibilities}
                 </div>
-                {/* <div className={classes.benefits}>
-                    {benefits}
+                {/* <div className={classes.benefitsDescription}>
+                    {benefitsDescription}
                 </div> */}
             </div>
         </div>
