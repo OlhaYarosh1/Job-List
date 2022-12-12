@@ -200,50 +200,29 @@
     margin-top: 1393px;
 }
 
-.benefitsBox {
+.benefitsBox, .employmentBox {
     width: 700px;
     display: flex;
+    background-color: transparent;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: -0.4px;
+    @apply font-sans;
+}
+
+.benefitsBox {
     height: 50px;
-    background-color: transparent;
     margin-top: 1499px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 16px;
-    text-align: center;
-    letter-spacing: -0.4px;
-    color: #988B49;
-    @apply font-sans;
 }
 
-.employmentTitle {
-    background-color: transparent;
-    width: 222px;
-    margin-top: 17px;
+.employmentBox {
     position: absolute;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 16px;
-    text-align: center;
-    letter-spacing: -0.457143px;
-    color: #55699E;
-    @apply font-sans;
-}
-
-.benefitsBoxTitle {
-    background-color: transparent;
-    width: 220px;
-    margin-top: 17px;
-    position: absolute;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 16px;
-    text-align: center;
-    letter-spacing: -0.4px;
-    color: #988B49;
-    @apply font-sans;
+    margin-left: 18.07%;
+    height: 49px;
+    margin-top: 1393px;
 }
 
 .imagesAttached, .imagesAttached2, .imagesAttached3 {

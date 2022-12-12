@@ -24,8 +24,18 @@ const DetailedJobPage = ({myId}) => {
         return (job.benefits.map(e => (
             <div
               title={e}
-              className="flex justify-center items-center mr-[10px] w-[220px] h-[49px] border border-[#FFCF00] bg-[#FFCF00]/[0.15] text-[#988B49] font-bold text-base rounded-lg text-center"
+              className="flex justify-center items-center mr-[10px] w-[220px] h-[50px] border border-[#FFCF00] bg-[#FFCF00]/[0.15] text-[#988B49] font-bold text-base rounded-lg text-center"
             >
+              {e}
+            </div>
+          )))
+    }
+
+    const getEmploymentTypeContent = () => {
+        return (job.employment_type.map(e => (
+            <div
+              title={e}
+              className="flex justify-center items-center mr-[8px] w-[222px] h-[49px] border border-[#55699e]/30 bg-[#a1b1db]/[0.317343] text-[#55699E] font-bold text-base rounded-lg text-center">
               {e}
             </div>
           )))
@@ -42,6 +52,7 @@ const DetailedJobPage = ({myId}) => {
             responsibilities={description[4]}
             benefitsDescription={description[7]}
             benefits={getBenefitsContent()}
+            employmentType={getEmploymentTypeContent()}
         />
     }
 
