@@ -1,3 +1,8 @@
+.detailedPage {
+    height: 2126px;
+    background-color: #FFFFFF;
+}
+
 .applyNow, .applyNowBottom {
     position: absolute;
     background-color: #384564;
@@ -18,11 +23,12 @@
     position: absolute;
     width: 213px;
     height: 50px;
-    background-color: rgba(56, 69, 100, 0.014);
+    background-color: rgba(56, 69, 100, 0.14);
     position: absolute;
     border-radius: 8px;
     margin-left: 13.44%;
-    margin-top: 1402px;
+    margin-top: 1914px;
+    margin-bottom: 162px;
     cursor: pointer;
     font-weight: 500;
     font-size: 12px;
@@ -40,7 +46,7 @@
 }
 
 .applyNowBottom {
-    margin-top: 650px;
+    margin-top: 1162px;
     margin-left: 18.07%;
 }
 
@@ -56,7 +62,7 @@
 
 .lineImages {
     width: 36.51%;
-    margin-top: 1167px;
+    margin-top: 1679px;
     margin-left: 18.23%;
 }
 
@@ -68,7 +74,7 @@
 
 .lineAdditional {
     width: 36.51%;
-    margin-top: 831px;
+    margin-top: 1343px;
     margin-left: 18.23%;
 }
 
@@ -78,12 +84,13 @@
     font-size: 28px;
     letter-spacing: 0.413333px;
     color: #3A4562;
+    background-color: transparent;
     @apply font-sans;
 }
 
 .attachedImages {
     line-height: 34px;
-    margin-top: 1124px;
+    margin-top: 1636px;
     margin-left: 18.28%;
 }
 
@@ -95,13 +102,14 @@
 
 .additionalInfo {
     line-height: 34.1px;
-    margin-top: 788px;
+    margin-top: 1300px;
     margin-left: 18.28%;
 }
 
 .saveIcon, .shareIcon, .arrowIcon {
     position: absolute;
     height: 20px;
+    background-color: transparent;
 
 }
 
@@ -109,7 +117,7 @@
     background-color: transparent;
     cursor: pointer;
     height: 18px;
-    margin-top: 1418px;
+    margin-top: 1930px;
     margin-left: 14.64%;
 }
 
@@ -134,15 +142,16 @@
     font-weight: 400;
     color: #3A4562;
     font-stretch: 100;
+    background-color: transparent;
 }
 
 .employmentTypeTitle {
-    margin-top: 847px;
+    margin-top: 1359px;
     margin-left: 18.07%;
 }
 
 .benefitsTitle {
-    margin-top: 953px;
+    margin-top: 1465px;
     margin-left: 17.97%;
 }
 
@@ -156,15 +165,23 @@
     margin-left: 53.52%;
 }
 
-.compensation {
-    position: absolute;
+.responsibilitiesTitle {
     margin-top: 537px;
+}
+
+.compensation {
+    margin-top: 947px;
+}
+
+.compensation, .responsibilitiesTitle {
+    position: absolute;
     margin-left: 18.07%;
     font-size: 20px;
     font-weight: 700;
     line-height: 25px;
     letter-spacing: -0.625px;
     color: #3A4562;
+    background-color: transparent;
     @apply font-sans;
 }
 
@@ -178,17 +195,17 @@
 .employmentTypeBox {
     width: 222px;
     height: 49px;
-    background: rgba(161, 177, 219, 0.0317343);
+    background: rgba(161, 177, 219, 0.317343);
     border: 1px solid rgba(85, 105, 158, 0.3);
-    margin-top: 881px;
+    margin-top: 1393px;
 }
 
 .benefitsBox {
     width: 220px;
     height: 50px;
-    background: rgba(255, 207, 0, 0.015);
+    background: rgba(255, 207, 0, 0.15);
     border: 1px solid #FFCF00;
-    margin-top: 987px;
+    margin-top: 1499px;
 }
 
 .employmentTitle {
@@ -225,7 +242,7 @@
     width: 200px;
     position: absolute;
     height: 110px;
-    margin-top: 1180px;
+    margin-top: 1704px;
     border-radius: 10px;
 }
 
@@ -254,6 +271,7 @@
     line-height: 30px;
     letter-spacing: -0.75px;
     color: #3A4562;
+    background-color: transparent;
 }
 
 .postedAt {
@@ -270,11 +288,13 @@
     letter-spacing: -0.5625px;
     color: rgba(56, 65, 93, 0.355988);
     font-stretch: 100;
+    background-color: transparent;
 }
 
 .description {
     margin-top: 382px;
     margin-left: 18.07%;
+    background-color: transparent;
     width: 780px;
     height: 155px;
     position: absolute;
@@ -286,4 +306,20 @@
     letter-spacing: -0.5625px;
     color: #3A4562;
     font-stretch: 100;
+}
+
+.responsibilities {
+    position: absolute;
+    width: 721px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.5625px;
+    color: #3A4562;
+    font-stretch: 100;
+    background-color: transparent;
+    margin-top: 572px;
+    margin-left: 18.07%;
 }

@@ -20,6 +20,7 @@ const DetailedJobComponent = ({ picture, title, postedAt, description, responsib
                     className={classes.applyNow}
                     title='Apply now'
                 />
+                <div className={classes.responsibilitiesTitle}>Responsibilities</div>
                 <div className={classes.compensation}>Compensation & Benefits:</div>
                 <Button
                     className={classes.applyNowBottom}
@@ -59,10 +60,10 @@ const DetailedJobComponent = ({ picture, title, postedAt, description, responsib
                 <div className={classes.description}>
                     {description}
                 </div>
-                {/* <div className={classes.responsibilities}>
+                <div className={classes.responsibilities}>
                     {responsibilities}
                 </div>
-                <div className={classes.benefits}>
+                {/* <div className={classes.benefits}>
                     {benefits}
                 </div> */}
             </div>
