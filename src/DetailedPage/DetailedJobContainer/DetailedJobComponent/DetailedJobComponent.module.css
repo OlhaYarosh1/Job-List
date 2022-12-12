@@ -255,3 +255,19 @@
     letter-spacing: -0.75px;
     color: #3A4562;
 }
+
+.postedAt {
+    margin-top: 350px;
+    margin-left: 18.07%;
+    width: 179px;
+    height: 25px;
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.5625px;
+    color: rgba(56, 65, 93, 0.355988);
+    font-stretch: 100;
+}
