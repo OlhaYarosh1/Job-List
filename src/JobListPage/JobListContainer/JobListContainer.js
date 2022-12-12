@@ -9,7 +9,6 @@ import classes from './JobListContainer.module.css'
 const JobListContainer = ({mySetData}) => {
     const dispatch = useDispatch();
 
-    //const jobs = useSelector(state => state.jobInfo.jobs)
     const jobs = jobsJson;
 
     const COUNT_PER_PAGE = 4;
@@ -27,7 +26,6 @@ const JobListContainer = ({mySetData}) => {
 
     let lastPage = Math.ceil(jobs.length / COUNT_PER_PAGE)
     const handlePageSelect = (pageNumber) => {
-        console.log(lastPage)
         if (pageNumber >= 0 && pageNumber < lastPage) {
             dispatch(jobInfoActions.setPageNumber(pageNumber))
         }

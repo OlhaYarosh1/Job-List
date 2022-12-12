@@ -6,8 +6,6 @@ import classes from './PaginationBox.module.css';
 const PaginationBox = ({currentPage, itemsCount, countPerPage, onPageSelect}) => {
 
     const handleChange = (pageNumber) => {
-        console.log(pageNumber)
-
         if (onPageSelect) {
             onPageSelect(pageNumber);
         }

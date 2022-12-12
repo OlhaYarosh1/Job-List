@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import classes from './JobComponent.module.css';
 
-const JobComponent = ({ title, name, picture, daysAgo, address, index, jobId, mySetData }) => {
+const JobComponent = ({ title, name, picture, daysAgo, address, jobId, mySetData }) => {
 
     const handleOnClick = () => {
         mySetData(jobId)

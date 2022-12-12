@@ -12,7 +12,6 @@ const UseFetchJobs = (result) => {
         .then(data => data.json())
         .then((data) => {
             result(data);
-            console.log(data)
         });
     }, [result]);
 }
