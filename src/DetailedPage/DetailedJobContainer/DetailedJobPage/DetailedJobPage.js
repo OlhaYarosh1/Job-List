@@ -18,7 +18,9 @@ const DetailedJobPage = ({myId}) => {
     let str = job.description;
     let description = str.split('\n');
 
-    console.log(job.benefits[0]);
+    let compensation = description[7];
+    let result = compensation.split('.')
+
 
     const getBenefitsContent = () => {
         return (job.benefits.map(e => (
@@ -50,9 +52,11 @@ const DetailedJobPage = ({myId}) => {
             myId={myId}
             description={description[1]}
             responsibilities={description[4]}
-            benefitsDescription={description[7]}
             benefits={getBenefitsContent()}
             employmentType={getEmploymentTypeContent()}
+            compensation1={result[0]}
+            compensation2={result[1]}
+            compensation3={result[2]}
         />
     }
 

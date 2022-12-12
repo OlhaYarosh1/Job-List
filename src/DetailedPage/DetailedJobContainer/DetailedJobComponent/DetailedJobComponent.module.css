@@ -310,3 +310,51 @@
     margin-top: 572px;
     margin-left: 18.07%;
 }
+
+.compensation1, .compensation2, .compensation3 {
+    background-color: transparent;
+    position: absolute;
+    width: 721px;
+    margin-left: 344px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.5625px;
+    color: #3A4562;
+    font-stretch: 100;
+}
+
+.compensation1 {
+    margin-top: 982px;
+}
+
+.compensation2 {
+    margin-top: 1006px;
+}
+
+.compensation3 {
+    margin-top: 1030px;
+}
+
+.square1, .square2, .square3 {
+    width: 9px;
+    height: 9px;
+    background-color: transparent;
+    position: absolute;
+    margin-left: 325px;
+    background: rgba(56, 69, 100, 0.632594);
+}
+
+.square1 {
+    margin-top: 989px;
+}
+
+.square2 {
+    margin-top: 1013px;
+}
+
+.square3 {
+    margin-top: 1037px;
+}
