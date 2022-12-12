@@ -4,7 +4,7 @@ import DetailedJobPage from './DetailedJobPage/DetailedJobPage';
 
 const DetailedJobContainer = ({myId}) => {
     return (
-        <div className=''>
+        <div>
             <DetailedJobPage myId={myId}/>
         </div>
     )

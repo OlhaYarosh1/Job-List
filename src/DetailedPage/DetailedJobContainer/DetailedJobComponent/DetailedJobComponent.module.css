@@ -271,3 +271,19 @@
     color: rgba(56, 65, 93, 0.355988);
     font-stretch: 100;
 }
+
+.description {
+    margin-top: 382px;
+    margin-left: 18.07%;
+    width: 780px;
+    height: 155px;
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.5625px;
+    color: #3A4562;
+    font-stretch: 100;
+}

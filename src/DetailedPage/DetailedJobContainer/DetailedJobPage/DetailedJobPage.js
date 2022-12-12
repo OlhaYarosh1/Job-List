@@ -15,6 +15,9 @@ const DetailedJobPage = ({myId}) => {
         }   
     }
 
+    let str = job.description;
+    let description = str.split('\n');
+
     const getJobComponent = (job) => {
         return <DetailedJobComponent
             jobId={job.id}
@@ -22,6 +25,9 @@ const DetailedJobPage = ({myId}) => {
             picture={job.pictures.map((item) => item + `?random=${Math.floor(Math.random() * 100000)}`)}
             title={job.title}
             myId={myId}
+            description={description[1]}
+            responsibilities={description[4]}
+            benefits={description[7]}
         />
     }
 

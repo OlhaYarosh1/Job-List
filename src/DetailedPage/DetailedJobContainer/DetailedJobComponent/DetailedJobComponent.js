@@ -2,7 +2,7 @@ import React from 'react';
 import Button from '../../../components/Button';
 import classes from './DetailedJobComponent.module.css';
 
-const DetailedJobComponent = ({ picture, title, postedAt }) => {
+const DetailedJobComponent = ({ picture, title, postedAt, description, responsibilities, benefits }) => {
     return (
         <div className={classes.detailedPage}>
             <div className={classes.commonPart}> 
@@ -56,6 +56,15 @@ const DetailedJobComponent = ({ picture, title, postedAt }) => {
                 <div className={classes.postedAt}>
                     Posted {postedAt} days ago
                 </div>
+                <div className={classes.description}>
+                    {description}
+                </div>
+                {/* <div className={classes.responsibilities}>
+                    {responsibilities}
+                </div>
+                <div className={classes.benefits}>
+                    {benefits}
+                </div> */}
             </div>
         </div>
     )
