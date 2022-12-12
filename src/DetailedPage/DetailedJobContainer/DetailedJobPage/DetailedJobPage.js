@@ -57,6 +57,7 @@ const DetailedJobPage = ({myId}) => {
             compensation1={result[0]}
             compensation2={result[1]}
             compensation3={result[2]}
+            salary={job.salary}
         />
     }
 

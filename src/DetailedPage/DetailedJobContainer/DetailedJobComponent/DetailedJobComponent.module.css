@@ -30,7 +30,7 @@
     margin-top: 1914px;
     margin-bottom: 162px;
     cursor: pointer;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 12px;
     line-height: 16px;
     text-transform: uppercase;
@@ -282,7 +282,7 @@
     margin-top: 382px;
     margin-left: 18.07%;
     background-color: transparent;
-    width: 780px;
+    width: 721px;
     height: 155px;
     position: absolute;
     font-family: 'Roboto', sans-serif;
@@ -314,7 +314,7 @@
 .compensation1, .compensation2, .compensation3 {
     background-color: transparent;
     position: absolute;
-    width: 721px;
+    width: 781px;
     margin-left: 344px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -357,4 +357,35 @@
 
 .square3 {
     margin-top: 1037px;
+}
+
+.salary {
+    position: absolute;
+    background-color: transparent;
+    height: 25px;
+    font-family: 'Proxima Nova', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: -0.625px;
+    color: #3A4562;
+    margin-top: 223px;
+    margin-left: 47.29%;
+}
+
+.salaryText {
+    position: absolute;
+    height: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.5625px;
+    color: #3A4562;
+    font-stretch: 100;
+    background-color: transparent;
+    margin-top: 249px;
+    margin-left: 47.29%;
 }
