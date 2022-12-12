@@ -4,31 +4,30 @@ import jobsJson from '../../../JobListPage/JobListContainer/jobs.json';
 
 const DetailedJobPage = ({myId}) => {
 
-    console.log(myId)
+    console.log(myId);
 
     const jobs = jobsJson;
 
-    const getListContent = () => {
-        if(jobs) {
-            return jobs.map((job, index) => {
-                return getJobComponent(job, index);
-            })
-        }
+    let job;
+
+    for (let i = 0; i < jobs.length; i++) {
+        if (myId === jobs[i].id) {
+            job = jobs[i];
+        }   
     }
 
-    const getJobComponent = (job, index) => {
+    const getJobComponent = (job) => {
         return <DetailedJobComponent
             jobId={job.id}
             picture={job.pictures.map((item) => item + `?random=${Math.floor(Math.random() * 100000)}`)}
             title={job.title}
-            key={index}
             myId={myId}
         />
     }
 
     return (
         <div>
-            {getListContent()}
+            {getJobComponent(job)}
         </div>
     )
 }

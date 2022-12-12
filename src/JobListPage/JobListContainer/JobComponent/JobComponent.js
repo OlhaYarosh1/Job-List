@@ -15,7 +15,6 @@ const JobComponent = ({ title, name, picture, daysAgo, address, index, jobId, my
             </div>
             <div className={classes.title}>
                 <Link to='/DetailedPage' className={classes.titleHref} onClick={handleOnClick}>{title}</Link>
-                {/* <a href={'/DetailedPage/' + `${jobId}`} className={classes.titleHref} onClick={handleOnCkick}>{title}</a> */}
             </div>
             <div className={classes.name}>
                 {name}

@@ -2,7 +2,7 @@
     @apply flex-none order-none grow-0 flex flex-row
     md:h-component lg:p-0 mb-2 lg:bg-boxColor
     md:bg-boxColor rounded-lg shadow-boxShadow
-    sm:bg-mobile sm:h-mobile
+    sm:bg-mobile sm:h-mobile;
 }
 
 .picture {
@@ -21,7 +21,7 @@
     md:leading-title md:tracking-title md:text-title
     sm:mt-11 sm:ml-titleMobileLeft sm:w-titleMobile
     sm:h-12 sm:font-normal sm:leading-6 sm:tracking-titleMobile
-    sm:text-titleMobile
+    sm:text-titleMobile relative order-1;
 }
 
 .titleHref {
@@ -33,7 +33,7 @@
     font-normal leading-title text-address tracking-address
     md:w-address md:h-address md:mt-addressTop md:ml-titleLeft
     sm:w-addressMobile sm:h-addressMobile sm:mt-addressTopMobile
-    sm:ml-titleMobileLeft
+    sm:ml-titleMobileLeft order-2;
 }
 
 .address {
