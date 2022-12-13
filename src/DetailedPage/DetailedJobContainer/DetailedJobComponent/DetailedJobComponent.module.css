@@ -378,3 +378,18 @@
     margin-top: 249px;
     margin-left: 47.29%;
 }
+
+.cardLocation {
+    position: absolute;
+    width: 402px;
+    height: 436px;
+    background: #2A3047;
+    border-radius: 8px;
+    margin-top: 56px;
+    margin-left: 62.66%;
+}
+
+.cardImg {
+    background-color: transparent;
+    border-radius: 8px;
+}

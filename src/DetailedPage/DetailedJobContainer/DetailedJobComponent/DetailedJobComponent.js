@@ -46,6 +46,7 @@ const DetailedJobComponent = ({ picture, title, postedAt, description, responsib
                 />
                 <img src='icons/ButtonArrow.png' alt='' className={classes.arrowIcon}/>
                 </a>
+                <div className={classes.cardLocation}><img className={classes.cardImg} src='icons/LocationCircle.png' alt=''/></div>
             </div>
             <div className={classes.individualPart}>
                 <div className={classes.titleItem}>
