@@ -3,7 +3,7 @@ import Button from '../../../components/Button';
 import InfoBlock from '../../../components/InfoBlock';
 import classes from './DetailedJobComponent.module.css';
 
-const DetailedJobComponent = ({ picture, title, postedAt, description, responsibilities, salary, benefits, employmentType, compensation1, compensation2, compensation3 }) => {
+const DetailedJobComponent = ({ picture, address, name, title, phone, email, postedAt, description, responsibilities, salary, benefits, employmentType, compensation1, compensation2, compensation3 }) => {
     return (
         <div className={classes.detailedPage}>
             <div className={classes.commonPart}> 
@@ -46,7 +46,15 @@ const DetailedJobComponent = ({ picture, title, postedAt, description, responsib
                 />
                 <img src='icons/ButtonArrow.png' alt='' className={classes.arrowIcon}/>
                 </a>
-                <div className={classes.cardLocation}><img className={classes.cardImg} src='icons/LocationCircle.png' alt=''/></div>
+                <div className={classes.cardLocation}>
+                    <img className={classes.cardImg} src='icons/LocationCircle.png' alt=''/>
+                    <div className={classes.locationTitle}>Department name.</div>
+                    <div className={classes.locationName}>{name}.</div>
+                    <img className={classes.locationImg} src='icons/Location.png' alt=''/>
+                    <div className={classes.locationAddress}>{address}</div>
+                    <div className={classes.locationPhone}>{phone},</div>
+                    <div className={classes.locationEmail}>{email}</div>
+                </div>
             </div>
             <div className={classes.individualPart}>
                 <div className={classes.titleItem}>

@@ -304,7 +304,7 @@
     background-color: transparent;
     position: absolute;
     width: 781px;
-    margin-left: 344px;
+    margin-left: 18.07%;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -332,8 +332,9 @@
     height: 9px;
     background-color: transparent;
     position: absolute;
-    margin-left: 325px;
+    margin-left: 17.08%;
     background: rgba(56, 69, 100, 0.632594);
+    margin-right: 10px;
 }
 
 .square1 {
@@ -391,5 +392,73 @@
 
 .cardImg {
     background-color: transparent;
+    position: absolute;
     border-radius: 8px;
+}
+
+.locationTitle, .locationName {
+    position: absolute;
+    background-color: transparent;
+    font-family: 'Proxima Nova', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: -0.625px;
+    color: #E7EAF0;
+    margin-left: 62px;
+}
+
+.locationTitle {
+    margin-top: 31px;
+}
+
+.locationName {
+    margin-top: 56px;
+}
+
+.locationImg {
+    position: absolute;
+    background-color: transparent;
+    height: 18px;
+    width: 13px;
+    margin-top: 92.5px;
+    margin-left: 63px;
+}
+
+.locationAddress {
+    position: absolute;
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.5625px;
+    color: #E8EBF3;
+    font-stretch: 100;
+    margin-top: 93px;
+    margin-left: 84px;
+}
+
+.locationPhone, .locationEmail {
+    position: absolute;
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.5625px;
+    color: #E8EBF3;
+    font-stretch: 100;
+    margin-left: 62px;
+}
+
+.locationPhone {
+    margin-top: 125px;
+}
+
+.locationEmail {
+    margin-top: 149px;
 }

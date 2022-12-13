@@ -17,7 +17,7 @@ const JobComponent = ({ title, name, picture, daysAgo, address, jobId, mySetData
                 <Link to='/DetailedPage' className={classes.titleHref} onClick={handleOnClick}>{title}</Link>
             </div>
             <div className={classes.name}>
-                {name}
+                Department name • {name}
             </div>
             <img 
                 src='icons/Location.png' 
