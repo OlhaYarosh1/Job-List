@@ -1,5 +1,5 @@
 .detailedPage {
-    height: 2126px;
+    height: 1813px;
     background-color: #FFFFFF;
 }
 
@@ -27,7 +27,7 @@
     position: absolute;
     border-radius: 8px;
     margin-left: 13.44%;
-    margin-top: 1914px;
+    margin-top: 1601px;
     margin-bottom: 162px;
     cursor: pointer;
     font-weight: 600;
@@ -37,7 +37,7 @@
     font-style: normal;
     color: #3A4562;
     @apply font-sans;
-    text-align: right;
+    text-align: center;
 }
 
 .applyNow {
@@ -46,7 +46,7 @@
 }
 
 .applyNowBottom {
-    margin-top: 1162px;
+    margin-top: 849px;
     margin-left: 18.07%;
 }
 
@@ -62,7 +62,7 @@
 
 .lineImages {
     width: 36.51%;
-    margin-top: 1679px;
+    margin-top: 1366px;
     margin-left: 18.23%;
 }
 
@@ -74,7 +74,7 @@
 
 .lineAdditional {
     width: 36.51%;
-    margin-top: 1343px;
+    margin-top: 1030px;
     margin-left: 18.23%;
 }
 
@@ -90,7 +90,7 @@
 
 .attachedImages {
     line-height: 34px;
-    margin-top: 1636px;
+    margin-top: 1323px;
     margin-left: 18.28%;
 }
 
@@ -102,7 +102,7 @@
 
 .additionalInfo {
     line-height: 34.1px;
-    margin-top: 1300px;
+    margin-top: 987px;
     margin-left: 18.28%;
 }
 
@@ -117,7 +117,7 @@
     background-color: transparent;
     cursor: pointer;
     height: 18px;
-    margin-top: 1930px;
+    margin-top: 1617px;
     margin-left: 14.64%;
 }
 
@@ -146,12 +146,12 @@
 }
 
 .employmentTypeTitle {
-    margin-top: 1359px;
+    margin-top: 1046px;
     margin-left: 18.07%;
 }
 
 .benefitsTitle {
-    margin-top: 1465px;
+    margin-top: 1152px;
     margin-left: 17.97%;
 }
 
@@ -170,7 +170,7 @@
 }
 
 .compensation {
-    margin-top: 947px;
+    margin-top: 682px;
 }
 
 .compensation, .responsibilitiesTitle {
@@ -185,21 +185,6 @@
     @apply font-sans;
 }
 
-.employmentTypeBox, .benefitsBox {
-    box-sizing: border-box;
-    position: absolute;
-    border-radius: 8px;
-    margin-left: 18.07%;
-}
-
-.employmentTypeBox {
-    width: 222px;
-    height: 49px;
-    background: rgba(161, 177, 219, 0.317343);
-    border: 1px solid rgba(85, 105, 158, 0.3);
-    margin-top: 1393px;
-}
-
 .benefitsBox, .employmentBox {
     width: 700px;
     display: flex;
@@ -210,26 +195,30 @@
     line-height: 16px;
     text-align: center;
     letter-spacing: -0.4px;
+    box-sizing: border-box;
+    position: absolute;
+    border-radius: 8px;
+    margin-left: 18.07%;
     @apply font-sans;
 }
 
 .benefitsBox {
     height: 50px;
-    margin-top: 1499px;
+    margin-top: 1186px;
 }
 
 .employmentBox {
     position: absolute;
     margin-left: 18.07%;
     height: 49px;
-    margin-top: 1393px;
+    margin-top: 1080px;
 }
 
 .imagesAttached, .imagesAttached2, .imagesAttached3 {
     width: 200px;
     position: absolute;
     height: 110px;
-    margin-top: 1704px;
+    margin-top: 1391px;
     border-radius: 10px;
 }
 
@@ -327,15 +316,15 @@
 }
 
 .compensation1 {
-    margin-top: 982px;
+    margin-top: 717px;
 }
 
 .compensation2 {
-    margin-top: 1006px;
+    margin-top: 741px;
 }
 
 .compensation3 {
-    margin-top: 1030px;
+    margin-top: 765px;
 }
 
 .square1, .square2, .square3 {
@@ -348,15 +337,15 @@
 }
 
 .square1 {
-    margin-top: 989px;
+    margin-top: 724px;
 }
 
 .square2 {
-    margin-top: 1013px;
+    margin-top: 748px;
 }
 
 .square3 {
-    margin-top: 1037px;
+    margin-top: 772px;
 }
 
 .salary {
