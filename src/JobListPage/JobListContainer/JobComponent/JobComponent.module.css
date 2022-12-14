@@ -6,8 +6,6 @@
 }
 
 .picture {
-    /* @apply md:mt-6 md:ml-4 absolute bg-transparent
-    sm:mt-imgTopMb sm:ml-imgLeftMb; */
     background-color: transparent;
     position: absolute;
     margin-top: 24px;
@@ -20,12 +18,6 @@
 }
 
 .title {
-    /* @apply md:mt-6
-    md:ml-titleLeft md:w-title md:font-bold
-    md:leading-title md:tracking-title md:text-title
-    sm:mt-11 sm:ml-titleMobileLeft sm:w-titleMobile
-    sm:font-normal sm:leading-6 sm:tracking-titleMobile
-    sm:text-titleMobile order-1; */
     background-color: transparent;
     display: flex;
     position: relative;
@@ -48,11 +40,6 @@
 }
 
 .name {
-    /* @apply bg-transparent self-stretch not-italic font-sans
-    font-normal leading-title text-address tracking-address
-    md:w-address md:h-address md:mt-addressTop
-    sm:w-addressMobile sm:h-addressMobile sm:mt-addressTopMobile
-    sm:ml-titleMobileLeft order-2; */
     background-color: transparent;
     position: relative;
     top: 32px;
@@ -68,29 +55,30 @@
 }
 
 .address {
-    /* background-color: red;
+    background-color: transparent;
+    top: 22px;
+    margin-left: 148px;
+    position: relative;
     align-self: stretch;
     font-style: normal;
     font-family: Proxima Nova, sans-serif;
     font-weight: 400;
     line-height: 25px;
     font-size: 16px;
-    --tw-text-opacity: 1;
-    color: rgb(135 141 157 / var(--tw-text-opacity));
+    color: #878D9D;
     letter-spacing: 0.23619px;
-    width: 68.5%;
-    height: 25px;
-    margin-top: 115px;
-    margin-left: 148px; */
 }
 
-/* .imgLocation {
-    @apply absolute bg-transparent md:w-locationIcon md:h-locationIcon
-    md:mt-locationIconT md:ml-titleLeft sm:mt-locationIconTMobile
-    sm:ml-titleMobileLeft
+.imgLocation {
+    background-color: transparent;
+    top: 41px;
+    margin-left: 127px;
+    position: relative;
+    width: 13px;
+    height: 18px;
 }
 
-.starsBox {
+/*.starsBox {
     @apply absolute bg-transparent md:ml-starL md:text-star
     md:mt-starT md:w-24 md:h-20 sm:ml-titleMobileLeft
     sm:text-starMobile sm:mt-starIconMobile cursor-pointer
