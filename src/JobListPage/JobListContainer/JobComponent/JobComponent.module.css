@@ -79,10 +79,6 @@
 }
 
 .starsBox {
-    /* @apply absolute bg-transparent md:ml-starL md:text-star
-    md:mt-starT md:w-24 md:h-20 sm:ml-titleMobileLeft
-    sm:text-starMobile sm:mt-starIconMobile cursor-pointer
-    sm:w-starIconMobileBox; */
     position: relative;
     margin-top: -49px;
     margin-left: 79.86%;
@@ -117,10 +113,17 @@
     background-color: transparent;
 }
 
-/*.postedBox {
-    /* @apply flex justify-end absolute h-postedAt ml-postedL bg-transparent */
-/* }
+.postedBox {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    background-color: transparent;
+    top: -24px;
+}
 
 .posted {
-    @apply mr-postedR mt-postedTop text-address
-} */
+    margin-right: 16px;
+    background-color: transparent;
+    font-size: 16px;
+    color: #878D9D;
+}
