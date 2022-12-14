@@ -78,28 +78,46 @@
     height: 18px;
 }
 
-/*.starsBox {
-    @apply absolute bg-transparent md:ml-starL md:text-star
+.starsBox {
+    /* @apply absolute bg-transparent md:ml-starL md:text-star
     md:mt-starT md:w-24 md:h-20 sm:ml-titleMobileLeft
     sm:text-starMobile sm:mt-starIconMobile cursor-pointer
-    sm:w-starIconMobileBox
+    sm:w-starIconMobileBox; */
+    position: relative;
+    margin-top: -49px;
+    margin-left: 79.86%;
+    background-color: transparent;
+    width: 96px;
+    height: 80px;
+    cursor: pointer;
 }
 
 .star {
-    @apply bg-transparent hover:scale-125 inline-block
-    sm:w-starIconMobile md:w-starIcon md:h-starIcon
+    display: inline-block;
+    background-color: transparent;
+    width: 19px;
+    height: 18px;
 }
 
 .saveBox {
-    @apply bg-transparent absolute md:ml-saveL flex justify-end
+    position: relative;
+    background-color: transparent;
+    display: flex;
+    justify-content: flex-end;
+    width: 16px;
+    height: 20px;
+    cursor: pointer;
+    top: -119.67px;
+    margin-left: 97.14%;
 }
 
 .save {
-    @apply hover:scale-110 cursor-pointer md:w-4 md:h-5 sm:w-0
-    sm:h-0 md:mr-saveR md:mt-saveT bg-transparent;
+    @apply hover:scale-110;
+    margin-right: 24px;
+    background-color: transparent;
 }
 
-.postedBox {
+/*.postedBox {
     /* @apply flex justify-end absolute h-postedAt ml-postedL bg-transparent */
 /* }
 
