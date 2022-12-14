@@ -1,27 +1,46 @@
 .component {
-    @apply flex-none order-none grow-0 flex flex-row
-    md:h-component lg:p-0 mb-2 lg:bg-boxColor
+    @apply flex-none order-none grow-0
+    lg:p-0 mb-2 lg:bg-boxColor
     md:bg-boxColor rounded-lg shadow-boxShadow
-    sm:bg-mobile sm:h-mobile;
+    sm:bg-mobile;
 }
 
 .picture {
-    @apply md:mt-6 md:ml-4 absolute bg-transparent
-    sm:mt-imgTopMb sm:ml-imgLeftMb
+    /* @apply md:mt-6 md:ml-4 absolute bg-transparent
+    sm:mt-imgTopMb sm:ml-imgLeftMb; */
+    background-color: transparent;
+    position: absolute;
+    margin-top: 24px;
+    margin-left: 16px;
 }
 
 .imgPicture {
     @apply md:w-img md:h-img rounded-full
-    sm:w-imgMob sm:h-imgMob
+    sm:w-imgMob sm:h-imgMob;
 }
 
 .title {
-    @apply bg-transparent font-sans not-italic md:mt-6
-    md:ml-titleLeft md:w-title md:h-20 md:font-bold
+    /* @apply md:mt-6
+    md:ml-titleLeft md:w-title md:font-bold
     md:leading-title md:tracking-title md:text-title
     sm:mt-11 sm:ml-titleMobileLeft sm:w-titleMobile
-    sm:h-12 sm:font-normal sm:leading-6 sm:tracking-titleMobile
-    sm:text-titleMobile relative order-1;
+    sm:font-normal sm:leading-6 sm:tracking-titleMobile
+    sm:text-titleMobile order-1; */
+    background-color: transparent;
+    display: flex;
+    position: relative;
+    font-family: Proxima Nova, sans-serif;
+    font-style: normal;
+    margin-left: 127px;
+    width: 50.86%;
+    top: 24px;
+    font-weight: 700;
+    letter-spacing: -0.625px;
+    font-size: 20px;
+    color: #3A4562;    
+    line-height: 25px;
+    top: 24px;
+
 }
 
 .titleHref {
@@ -29,16 +48,27 @@
 }
 
 .name {
-    @apply bg-transparent absolute self-stretch not-italic font-sans
+    /* @apply bg-transparent self-stretch not-italic font-sans
     font-normal leading-title text-address tracking-address
-    md:w-address md:h-address md:mt-addressTop md:ml-titleLeft
+    md:w-address md:h-address md:mt-addressTop
     sm:w-addressMobile sm:h-addressMobile sm:mt-addressTopMobile
-    sm:ml-titleMobileLeft order-2;
+    sm:ml-titleMobileLeft order-2; */
+    background-color: transparent;
+    position: relative;
+    top: 32px;
+    margin-left: 127px;
+    align-self: stretch;
+    font-style: normal;
+    font-family: Proxima Nova, sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+    font-size: 16px;
+    letter-spacing: 0.23619px;
+    color: #878D9D;
 }
 
 .address {
-    background-color: transparent;
-    position: absolute;
+    /* background-color: red;
     align-self: stretch;
     font-style: normal;
     font-family: Proxima Nova, sans-serif;
@@ -51,10 +81,10 @@
     width: 68.5%;
     height: 25px;
     margin-top: 115px;
-    margin-left: 148px;
+    margin-left: 148px; */
 }
 
-.imgLocation {
+/* .imgLocation {
     @apply absolute bg-transparent md:w-locationIcon md:h-locationIcon
     md:mt-locationIconT md:ml-titleLeft sm:mt-locationIconTMobile
     sm:ml-titleMobileLeft
@@ -82,9 +112,9 @@
 }
 
 .postedBox {
-    @apply flex justify-end absolute h-postedAt ml-postedL bg-transparent
-}
+    /* @apply flex justify-end absolute h-postedAt ml-postedL bg-transparent */
+/* }
 
 .posted {
     @apply mr-postedR mt-postedTop text-address
-}
+} */
