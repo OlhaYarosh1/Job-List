@@ -1,19 +1,16 @@
-.component {
-    @apply flex-none order-none grow-0
-    lg:p-0 mb-2 lg:bg-boxColor
-    md:bg-boxColor rounded-lg shadow-boxShadow
-}
-
 @media only screen and (max-width: 615px) {
     .component {
-        min-height: 206px;
+        @apply flex-none order-none grow-0
+        lg:p-0 mb-2 lg:bg-boxColor
+        md:bg-boxColor rounded-lg shadow-boxShadow;
+        height: 206px;
     }
 
     .picture {
         background-color: transparent;
         position: absolute;
-        top: 21px;
-        left: 16px;
+        margin-top: 45px;
+        margin-left: 16px;
     }
 
     .imgPicture {
@@ -24,6 +21,7 @@
 
     .save {
         width: 0px;
+        position: absolute;
         height: 0px;
     }
 
@@ -36,14 +34,90 @@
         line-height: 24px;
         letter-spacing: -0.5625px;
         color: #3A4562;
-        font-family: Proxima Nova, sans-serif;
+        font-family: 'Proxima Nova', sans-serif;
         font-style: normal;
-        top: 44px;
+        top: 41px;
         left: 101px;
     }
+
+    .name {
+        background-color: transparent;
+        position: relative;
+        width: 70.45%;
+        font-style: normal;
+        font-family: Proxima Nova, sans-serif;
+        font-weight: 400;
+        line-height: 25px;
+        font-size: 16px;
+        letter-spacing: 0.23619px;
+        color: #878D9D;
+        top: 40px;
+        left: 101px;
+    }
+
+    .address {
+        background-color: transparent;
+        position: relative;
+        font-style: normal;
+        font-family: Proxima Nova, sans-serif;
+        font-weight: 400;
+        line-height: 25px;
+        font-size: 16px;
+        color: #878D9D;
+        letter-spacing: 0.23619px;
+        top: 39px;
+        left: 122px;
+    }
+
+    .imgLocation {
+        background-color: transparent;
+        top: 57px;
+        margin-left: 101px;
+        position: relative;
+        width: 13px;
+        height: 18px;
+    }
+
+    .starsBox {
+        position: absolute;
+        width: 0;
+    }
+
+    .rating {
+        position: absolute;
+        cursor: pointer;
+        margin-top: 17px;
+        margin-left: 101px;
+    }
+    
+    /* .postedBox {
+        position: absolute;
+        display: flex;
+        justify-content: flex-end;
+        background-color: transparent;
+        top: -24px;
+    }
+    
+    .posted {
+        margin-right: 16px;
+        background-color: transparent;
+        font-size: 16px;
+        color: #878D9D;
+    } */
 }
 
 @media only screen and (min-width: 615.000001px) {
+    .component {
+        @apply flex-none order-none grow-0
+        lg:p-0 mb-2 bg-boxColor
+        rounded-lg shadow-boxShadow
+    }
+
+    .rating {
+        position: absolute;
+        width: 0;
+    }
+
     .picture {
         background-color: transparent;
         position: absolute;

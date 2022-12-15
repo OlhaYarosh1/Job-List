@@ -16,6 +16,9 @@ const JobComponent = ({ title, name, picture, daysAgo, address, jobId, mySetData
             <div className={classes.saveBox}>
                 <img src='icons/Save.png' alt='' className={classes.save}/>
             </div>
+            <div className={classes.rating}>
+                <img src='icons/Rating.png' alt=''/>
+            </div>
             <div className={classes.title}>
                 <Link to='/DetailedPage' className={classes.titleHref} onClick={handleOnClick}>{title}</Link>
             </div>
