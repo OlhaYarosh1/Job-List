@@ -8,129 +8,158 @@
     .component {
         min-height: 206px;
     }
+
     .picture {
+        background-color: transparent;
+        position: absolute;
         top: 21px;
         left: 16px;
     }
+
+    .imgPicture {
+        border-radius: 9999px;
+        width: 66px;
+        height: 66px;
+    }
+
+    .save {
+        width: 0px;
+        height: 0px;
+    }
+
+    .title {
+        background-color: transparent;
+        width: 70.2%;
+        position: relative;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: -0.5625px;
+        color: #3A4562;
+        font-family: Proxima Nova, sans-serif;
+        font-style: normal;
+        top: 44px;
+        left: 101px;
+    }
 }
 
-.picture {
-    background-color: transparent;
-    position: absolute;
-    margin-top: 24px;
-    margin-left: 16px;
-}
+@media only screen and (min-width: 615.000001px) {
+    .picture {
+        background-color: transparent;
+        position: absolute;
+        margin-top: 24px;
+        margin-left: 16px;
+    }
 
-.imgPicture {
-    @apply md:w-img md:h-img rounded-full
-    sm:w-imgMob sm:h-imgMob;
-}
-
-.saveBox {
-    position: absolute;
-    background-color: transparent;
-    width: 16px;
-    height: 20px;
-    cursor: pointer;
-    margin-top: 29.33px;
-    margin-left: 97.14%;
-}
-
-.save {
-    @apply hover:scale-110;
-    background-color: transparent;
-}
-
-.title {
-    background-color: transparent;
-    display: flex;
-    position: relative;
-    font-family: Proxima Nova, sans-serif;
-    font-style: normal;
-    margin-left: 127px;
-    width: 50.86%;
-    font-weight: 700;
-    letter-spacing: -0.625px;
-    font-size: 20px;
-    color: #3A4562;    
-    line-height: 25px;
-    top: 24px;
-
-}
-
-.titleHref {
-    @apply bg-transparent hover:opacity-80
-}
-
-.name {
-    background-color: transparent;
-    position: relative;
-    top: 32px;
-    margin-left: 127px;
-    align-self: stretch;
-    font-style: normal;
-    font-family: Proxima Nova, sans-serif;
-    font-weight: 400;
-    line-height: 25px;
-    font-size: 16px;
-    letter-spacing: 0.23619px;
-    color: #878D9D;
-}
-
-.address {
-    background-color: transparent;
-    top: 22px;
-    margin-left: 148px;
-    position: relative;
-    align-self: stretch;
-    font-style: normal;
-    font-family: Proxima Nova, sans-serif;
-    font-weight: 400;
-    line-height: 25px;
-    font-size: 16px;
-    color: #878D9D;
-    letter-spacing: 0.23619px;
-}
-
-.imgLocation {
-    background-color: transparent;
-    top: 41px;
-    margin-left: 127px;
-    position: relative;
-    width: 13px;
-    height: 18px;
-}
-
-.starsBox {
-    position: relative;
-    margin-top: -49px;
-    margin-left: 79.86%;
-    background-color: transparent;
-    width: 96px;
-    height: 80px;
-    cursor: pointer;
-}
-
-.star {
-    display: inline-block;
-    background-color: transparent;
-    width: 19px;
-    height: 18px;
-}
-
-.postedBox {
-    position: relative;
-    display: flex;
-    justify-content: flex-end;
-    background-color: transparent;
-    top: -24px;
-}
-
-.posted {
-    margin-right: 16px;
-    background-color: transparent;
-    font-size: 16px;
-    color: #878D9D;
+    .imgPicture {
+        @apply md:w-img md:h-img rounded-full;
+    }
+    
+    .saveBox {
+        position: absolute;
+        background-color: transparent;
+        width: 16px;
+        height: 20px;
+        cursor: pointer;
+        margin-top: 29.33px;
+        margin-left: 97.14%;
+    }
+    
+    .save {
+        @apply hover:scale-110;
+        background-color: transparent;
+    }
+    
+    .title {
+        background-color: transparent;
+        display: flex;
+        position: relative;
+        font-family: Proxima Nova, sans-serif;
+        font-style: normal;
+        margin-left: 127px;
+        width: 50.86%;
+        font-weight: 700;
+        letter-spacing: -0.625px;
+        font-size: 20px;
+        color: #3A4562;    
+        line-height: 25px;
+        top: 24px;
+    }
+    
+    .titleHref {
+        @apply bg-transparent hover:opacity-80
+    }
+    
+    .name {
+        background-color: transparent;
+        position: relative;
+        top: 32px;
+        margin-left: 127px;
+        align-self: stretch;
+        font-style: normal;
+        font-family: Proxima Nova, sans-serif;
+        font-weight: 400;
+        line-height: 25px;
+        font-size: 16px;
+        letter-spacing: 0.23619px;
+        color: #878D9D;
+    }
+    
+    .address {
+        background-color: transparent;
+        top: 22px;
+        margin-left: 148px;
+        position: relative;
+        align-self: stretch;
+        font-style: normal;
+        font-family: Proxima Nova, sans-serif;
+        font-weight: 400;
+        line-height: 25px;
+        font-size: 16px;
+        color: #878D9D;
+        letter-spacing: 0.23619px;
+    }
+    
+    .imgLocation {
+        background-color: transparent;
+        top: 41px;
+        margin-left: 127px;
+        position: relative;
+        width: 13px;
+        height: 18px;
+    }
+    
+    .starsBox {
+        position: relative;
+        margin-top: -49px;
+        margin-left: 79.86%;
+        background-color: transparent;
+        width: 96px;
+        height: 80px;
+        cursor: pointer;
+    }
+    
+    .star {
+        display: inline-block;
+        background-color: transparent;
+        width: 19px;
+        height: 18px;
+    }
+    
+    .postedBox {
+        position: relative;
+        display: flex;
+        justify-content: flex-end;
+        background-color: transparent;
+        top: -24px;
+    }
+    
+    .posted {
+        margin-right: 16px;
+        background-color: transparent;
+        font-size: 16px;
+        color: #878D9D;
+    }
 }
 
 @media only screen and (max-width: 1000px) {
