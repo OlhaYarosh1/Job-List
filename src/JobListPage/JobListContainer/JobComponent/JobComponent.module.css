@@ -2,7 +2,16 @@
     @apply flex-none order-none grow-0
     lg:p-0 mb-2 lg:bg-boxColor
     md:bg-boxColor rounded-lg shadow-boxShadow
-    sm:bg-mobile;
+}
+
+@media only screen and (max-width: 615px) {
+    .component {
+        min-height: 206px;
+    }
+    .picture {
+        top: 21px;
+        left: 16px;
+    }
 }
 
 .picture {
@@ -122,4 +131,10 @@
     background-color: transparent;
     font-size: 16px;
     color: #878D9D;
+}
+
+@media only screen and (max-width: 1000px) {
+    .saveBox {
+        margin-left: 95.5%;
+    }
 }
