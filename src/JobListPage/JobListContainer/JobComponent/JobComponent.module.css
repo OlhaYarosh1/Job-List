@@ -17,6 +17,21 @@
     sm:w-imgMob sm:h-imgMob;
 }
 
+.saveBox {
+    position: absolute;
+    background-color: transparent;
+    width: 16px;
+    height: 20px;
+    cursor: pointer;
+    margin-top: 29.33px;
+    margin-left: 97.14%;
+}
+
+.save {
+    @apply hover:scale-110;
+    background-color: transparent;
+}
+
 .title {
     background-color: transparent;
     display: flex;
@@ -25,7 +40,6 @@
     font-style: normal;
     margin-left: 127px;
     width: 50.86%;
-    top: 24px;
     font-weight: 700;
     letter-spacing: -0.625px;
     font-size: 20px;
@@ -93,24 +107,6 @@
     background-color: transparent;
     width: 19px;
     height: 18px;
-}
-
-.saveBox {
-    position: relative;
-    background-color: transparent;
-    display: flex;
-    justify-content: flex-end;
-    width: 16px;
-    height: 20px;
-    cursor: pointer;
-    top: -119.67px;
-    margin-left: 97.14%;
-}
-
-.save {
-    @apply hover:scale-110;
-    margin-right: 24px;
-    background-color: transparent;
 }
 
 .postedBox {
