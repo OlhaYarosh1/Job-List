@@ -3,7 +3,7 @@
         @apply flex-none order-none grow-0
         lg:p-0 mb-2 lg:bg-boxColor
         md:bg-boxColor rounded-lg shadow-boxShadow;
-        height: 206px;
+        min-height: 206px;
     }
 
     .picture {
@@ -89,21 +89,26 @@
         margin-top: 17px;
         margin-left: 101px;
     }
-    
-    /* .postedBox {
+
+    .postedMobile {
         position: absolute;
-        display: flex;
-        justify-content: flex-end;
         background-color: transparent;
-        top: -24px;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 17px;
+        letter-spacing: 0.206667px;
+        color: #878D9D;
+        margin-top: 13px;
+        margin-left: 64.39%;
+        
     }
     
     .posted {
-        margin-right: 16px;
+        position: absolute;
         background-color: transparent;
-        font-size: 16px;
-        color: #878D9D;
-    } */
+        color: transparent;
+    }
 }
 
 @media only screen and (min-width: 615.000001px) {
@@ -233,6 +238,12 @@
         background-color: transparent;
         font-size: 16px;
         color: #878D9D;
+    }
+
+    .postedMobile {
+        position: absolute;
+        width: 0;
+        color: transparent;
     }
 }
 

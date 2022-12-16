@@ -19,6 +19,7 @@ const JobComponent = ({ title, name, picture, daysAgo, address, jobId, mySetData
             <div className={classes.rating}>
                 <img src='icons/Rating.png' alt=''/>
             </div>
+            <div className={classes.postedMobile}>Posted {daysAgo} days ago</div>
             <div className={classes.title}>
                 <Link to='/DetailedPage' className={classes.titleHref} onClick={handleOnClick}>{title}</Link>
             </div>
