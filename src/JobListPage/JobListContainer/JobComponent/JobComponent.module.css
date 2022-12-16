@@ -111,7 +111,7 @@
     }
 }
 
-@media only screen and (min-width: 615.000001px) {
+@media only screen and (min-width: 615.5px) {
     .component {
         @apply flex-none order-none grow-0
         lg:p-0 mb-2 bg-boxColor

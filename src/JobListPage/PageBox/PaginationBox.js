@@ -26,12 +26,22 @@ const PaginationBox = ({currentPage, itemsCount, countPerPage, onPageSelect}) =>
                 className={classes.leftArrow}
                 title={<img src='icons/ArrowLeft.svg' className={classes.arrow}/>}
             />
+            <Button 
+                onClick={handleChangeLeftArrow}
+                className={classes.leftArrowMobile}
+                title={<img src='icons/ArrowLeftMobile.png' className={classes.arrow}/>}
+            />
             <img src='icons/Separator.svg' className={classes.imgSeparatorRight}/>
             <img src='icons/Separator.svg' className={classes.imgSeparatorLeft}/>
             <Button 
                 onClick={handleChangeRightArrow}
                 className={classes.rightArrow}
                 title={<img src='icons/ArrowRight.svg' className={classes.arrow}/>}
+            />
+            <Button 
+                onClick={handleChangeRightArrow}
+                className={classes.rightArrowMobile}
+                title={<img src='icons/ArrowRightMobile.png' className={classes.arrow}/>}
             />
             <Pagination
                 currentPage = {currentPage}

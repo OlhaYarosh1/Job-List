@@ -5,11 +5,23 @@
     text-pagination tracking-pagination
     leading-title focus:text-pageNumber
     focus:border-pageNumber;
-    border-bottom: 2.5px solid transparent;
-    margin-top: 9px;
     align-items: center;
+    border-bottom: 2.5px solid transparent;
     width: 30px;
     font-family: 'Proxima Nova' sans-serif;
     font-style: normal;
-    height: 43px;
+}
+
+@media only screen and (max-width: 615px) {
+    .paginationItem {
+        margin-top: 6px;
+        height: 33.95px;
+    }
+}
+
+@media only screen and (min-width: 615.5px) {
+    .paginationItem {
+        margin-top: 9px;
+        height: 43.5px;
+    }
 }
