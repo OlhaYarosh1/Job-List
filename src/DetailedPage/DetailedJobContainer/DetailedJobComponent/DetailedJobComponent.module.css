@@ -1,5 +1,5 @@
-.detailedPage {
-    height: 1813px;
+/* .detailedPage {
+    min-height: 1813px;
     background-color: #FFFFFF;
 }
 
@@ -117,7 +117,7 @@
     background-color: transparent;
     cursor: pointer;
     height: 18px;
-    margin-top: 1617px;
+    margin-top: 1585px;
     margin-left: 14.64%;
 }
 
@@ -271,7 +271,7 @@
     margin-top: 382px;
     margin-left: 18.07%;
     background-color: transparent;
-    width: 721px;
+    width: 37.55%;
     height: 155px;
     position: absolute;
     font-family: 'Roboto', sans-serif;
@@ -461,4 +461,4 @@
 
 .locationEmail {
     margin-top: 149px;
-}
+} */
