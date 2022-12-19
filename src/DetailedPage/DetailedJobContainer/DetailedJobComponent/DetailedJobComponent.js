@@ -32,12 +32,21 @@ const DetailedJobComponent = ({ picture, address, name, title, phone, email, pos
                 {description}
             </div>
             <div className={classes.responsibilitiesTitle}>Responsibilities</div>
+            <div className={classes.responsibilities}>
+                {responsibilities}
+            </div>
             <div className={classes.compensation}>Compensation & Benefits:</div>
+            <img className={classes.square1} src='icons/Square.png' alt=''/>
+            <div className={classes.compensation1}>{compensation1}.</div>
+            <img className={classes.square2} src='icons/Square.png' alt=''/>
+            <div className={classes.compensation2}>{compensation2}.</div>
+            <img className={classes.square3} src='icons/Square.png' alt=''/>
+            <div className={classes.compensation3}>{compensation3}.</div>
             <Button
                 className={classes.applyNowBottom}
                 title='Apply now'
             />
-            <div className={classes.additionalInfo}>Additional info</div>
+            {/* <div className={classes.additionalInfo}>Additional info</div>
             <hr className={classes.lineAdditional}/>
             <div className={classes.employmentTypeTitle}>Employment type</div>
             <InfoBlock className={classes.employmentBox} title={employmentType}/>  
@@ -64,16 +73,7 @@ const DetailedJobComponent = ({ picture, address, name, title, phone, email, pos
                 <div className={classes.locationAddress}>{address}</div>
                 <div className={classes.locationPhone}>{phone},</div>
                 <div className={classes.locationEmail}>{email}</div>
-            </div>
-            <div className={classes.responsibilities}>
-                {responsibilities}
-            </div>
-            <img className={classes.square1} src='icons/Square.png' alt=''/>
-            <div className={classes.compensation1}>{compensation1}.</div>
-            <img className={classes.square2} src='icons/Square.png' alt=''/>
-            <div className={classes.compensation2}>{compensation2}.</div>
-            <img className={classes.square3} src='icons/Square.png' alt=''/>
-            <div className={classes.compensation3}>{compensation3}.</div>
+            </div> */}
         </div>
     )
 }
