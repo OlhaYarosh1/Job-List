@@ -1,6 +1,6 @@
 .detailedPage {
     min-height: 1813px;
-    background-color: #FFFFFF;
+    background-color: pink;
 }
 
 .title {
@@ -24,7 +24,7 @@
     top: 66px;
     left: 18.07%;
     color: #3A4562;
-    width: 37.66%;
+    width: 723px;
 }
 
 .saveIcon {
@@ -99,6 +99,86 @@
     transform: scale(.98);
 }
 
+.titleItem {
+    top: 81px;
+    left: 18.07%;
+    position: relative;
+    height: 120px;
+    width: 515px;
+    font-family: 'Proxima Nova', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: -0.75px;
+    color: #3A4562;
+    background-color: transparent;
+}
+
+.salary {
+    position: relative;
+    background-color: transparent;
+    height: 25px;
+    font-family: 'Proxima Nova', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: -0.625px;
+    color: #3A4562;
+    margin-top: -39px;
+    margin-left: 47.29%;
+}
+.salaryText {
+    position: absolute;
+    height: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.5625px;
+    color: #3A4562;
+    font-stretch: 100;
+    background-color: transparent;
+    margin-top: 1px;
+    margin-left: 47.29%;
+}
+
+.postedAt {
+    margin-top: 102px;
+    margin-left: 18.07%;
+    width: 179px;
+    height: 25px;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.5625px;
+    color: rgba(56, 65, 93, 0.355988);
+    font-stretch: 100;
+    background-color: transparent;
+}
+
+.description {
+    margin-top: 7px;
+    margin-left: 18.07%;
+    background-color: transparent;
+    width: 37.55%;
+    height: 155px;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.5625px;
+    color: #3A4562;
+    font-stretch: 100;
+}
+
 /*.applyNow, .applyNowBottom {
     position: absolute;
     background-color: #384564;
@@ -114,7 +194,6 @@
     font-style: normal;
     @apply font-sans;
 }
-
 .return {
     position: absolute;
     width: 213px;
@@ -135,45 +214,37 @@
     @apply font-sans;
     text-align: center;
 }
-
 .applyNow {
     margin-top: 139px;
     margin-left: 18.07%;
 }
-
 .applyNowBottom {
     margin-top: 849px;
     margin-left: 18.07%;
 }
-
 .applyNow:active, .applyNowBottom:active, .return:active {
     transform: scale(.98);
 }
-
 .line, .lineAdditional, .lineImages {
     position: absolute;
     height: 1px;
     color: #3A4562;
 }
-
 .lineImages {
     width: 36.51%;
     margin-top: 1366px;
     margin-left: 18.23%;
 }
-
 .line {
     margin-top: 99px;
     margin-left: 18.07%;
     width: 37.66%;
 }
-
 .lineAdditional {
     width: 36.51%;
     margin-top: 1030px;
     margin-left: 18.23%;
 }
-
 .title, .additionalInfo, .attachedImages {
     font-weight: 700;
     position: absolute;
@@ -183,32 +254,26 @@
     background-color: transparent;
     @apply font-sans;
 }
-
 .attachedImages {
     line-height: 34px;
     margin-top: 1323px;
     margin-left: 18.28%;
 }
-
 .title {
     line-height: 34px;
     margin-top: 56px;
     margin-left: 18.125%;
 }
-
 .additionalInfo {
     line-height: 34.1px;
     margin-top: 987px;
     margin-left: 18.28%;
 }
-
 .saveIcon, .shareIcon, .arrowIcon {
     position: absolute;
     height: 20px;
     background-color: transparent;
-
 }
-
 .arrowIcon {
     background-color: transparent;
     cursor: pointer;
@@ -216,19 +281,16 @@
     margin-top: 1585px;
     margin-left: 14.64%;
 }
-
 .saveIcon {
     width: 16px;
     margin-top: 65.33px;
     margin-left: 42.84%;
 }
-
 .shareIcon {
     width: 18px;
     margin-top: 66px;
     margin-left: 51.8%;
 }
-
 .saveTitle, .shareTitle, .employmentTypeTitle, .benefitsTitle {
     position: absolute;
     font-size: 18px;
@@ -240,35 +302,28 @@
     font-stretch: 100;
     background-color: transparent;
 }
-
 .employmentTypeTitle {
     margin-top: 1046px;
     margin-left: 18.07%;
 }
-
 .benefitsTitle {
     margin-top: 1152px;
     margin-left: 17.97%;
 }
-
 .saveTitle {
     margin-top: 64px;
     margin-left: 44.51%;
 }
-
 .shareTitle {
     margin-top: 64px;
     margin-left: 53.52%;
 }
-
 .responsibilitiesTitle {
     margin-top: 537px;
 }
-
 .compensation {
     margin-top: 682px;
 }
-
 .compensation, .responsibilitiesTitle {
     position: absolute;
     margin-left: 18.07%;
@@ -280,7 +335,6 @@
     background-color: transparent;
     @apply font-sans;
 }
-
 .benefitsBox, .employmentBox {
     width: 700px;
     display: flex;
@@ -297,19 +351,16 @@
     margin-left: 18.07%;
     @apply font-sans;
 }
-
 .benefitsBox {
     height: 50px;
     margin-top: 1186px;
 }
-
 .employmentBox {
     position: absolute;
     margin-left: 18.07%;
     height: 49px;
     margin-top: 1080px;
 }
-
 .imagesAttached, .imagesAttached2, .imagesAttached3 {
     width: 200px;
     position: absolute;
@@ -317,19 +368,15 @@
     margin-top: 1391px;
     border-radius: 10px;
 }
-
 .imagesAttached {
     margin-left: 18.28%;
 }
-
 .imagesAttached2 {
     margin-left: 29.22%;
 }
-
 .imagesAttached3 {
     margin-left: 40.16%;
 }
-
 .titleItem {
     margin-top: 223px;
     margin-left: 18.07%;
@@ -345,7 +392,6 @@
     color: #3A4562;
     background-color: transparent;
 }
-
 .postedAt {
     margin-top: 350px;
     margin-left: 18.07%;
@@ -362,7 +408,6 @@
     font-stretch: 100;
     background-color: transparent;
 }
-
 .description {
     margin-top: 382px;
     margin-left: 18.07%;
@@ -379,7 +424,6 @@
     color: #3A4562;
     font-stretch: 100;
 }
-
 .responsibilities {
     position: absolute;
     width: 721px;
@@ -395,7 +439,6 @@
     margin-top: 572px;
     margin-left: 18.07%;
 }
-
 .compensation1, .compensation2, .compensation3 {
     background-color: transparent;
     position: absolute;
@@ -410,19 +453,15 @@
     color: #3A4562;
     font-stretch: 100;
 }
-
 .compensation1 {
     margin-top: 717px;
 }
-
 .compensation2 {
     margin-top: 741px;
 }
-
 .compensation3 {
     margin-top: 765px;
 }
-
 .square1, .square2, .square3 {
     width: 9px;
     height: 9px;
@@ -432,19 +471,15 @@
     background: rgba(56, 69, 100, 0.632594);
     margin-right: 10px;
 }
-
 .square1 {
     margin-top: 724px;
 }
-
 .square2 {
     margin-top: 748px;
 }
-
 .square3 {
     margin-top: 772px;
 }
-
 .salary {
     position: absolute;
     background-color: transparent;
@@ -459,7 +494,6 @@
     margin-top: 223px;
     margin-left: 47.29%;
 }
-
 .salaryText {
     position: absolute;
     height: 24px;
@@ -475,7 +509,6 @@
     margin-top: 249px;
     margin-left: 47.29%;
 }
-
 .cardLocation {
     position: absolute;
     width: 402px;
@@ -485,13 +518,11 @@
     margin-top: 56px;
     margin-left: 62.66%;
 }
-
 .cardImg {
     background-color: transparent;
     position: absolute;
     border-radius: 8px;
 }
-
 .locationTitle, .locationName {
     position: absolute;
     background-color: transparent;
@@ -504,15 +535,12 @@
     color: #E7EAF0;
     margin-left: 62px;
 }
-
 .locationTitle {
     margin-top: 31px;
 }
-
 .locationName {
     margin-top: 56px;
 }
-
 .locationImg {
     position: absolute;
     background-color: transparent;
@@ -521,7 +549,6 @@
     margin-top: 92.5px;
     margin-left: 63px;
 }
-
 .locationAddress {
     position: absolute;
     background-color: transparent;
@@ -536,7 +563,6 @@
     margin-top: 93px;
     margin-left: 84px;
 }
-
 .locationPhone, .locationEmail {
     position: absolute;
     background-color: transparent;
@@ -550,11 +576,9 @@
     font-stretch: 100;
     margin-left: 62px;
 }
-
 .locationPhone {
     margin-top: 125px;
 }
-
 .locationEmail {
     margin-top: 149px;
 } */
