@@ -19,8 +19,9 @@
 
 .line {
     height: 1px;
+    background-color: transparent;
     position: relative;
-    top: -26px;
+    top: 66px;
     left: 18.07%;
     color: #3A4562;
     width: 37.66%;
@@ -49,6 +50,53 @@
     background-color: transparent;
     top: 12px;
     left: 44.51%;
+}
+
+.shareIcon {
+    position: relative;
+    height: 20px;
+    background-color: transparent;
+    width: 18px;
+    top: -10px;
+    left: 51.8%;
+    cursor: pointer;
+    @apply hover:scale-110;
+}
+
+.shareTitle {
+    position: relative;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.5625px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #3A4562;
+    font-stretch: 100;
+    background-color: transparent;
+    margin-top: -33px;
+    margin-left: 53.52%;
+}
+
+.applyNow {
+    position: relative;
+    background-color: #384564;
+    border-radius: 8px;
+    width: 127px;
+    height: 52px;
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 600;
+    font-style: normal;
+    @apply font-sans;
+    top: 49px;
+    left: 17.29%;
+}
+
+.applyNow:active, .applyNowBottom:active, .return:active {
+    transform: scale(.98);
 }
 
 /*.applyNow, .applyNowBottom {

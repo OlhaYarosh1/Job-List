@@ -8,6 +8,7 @@ const DetailedJobComponent = ({ picture, address, name, title, phone, email, pos
         <div className={classes.detailedPage}>
             <div className={classes.commonPart}> 
                 <div className={classes.title}>Job Details</div>
+                <hr className={classes.line}/>
                 <div className={classes.saveToList}>
                     <img src='icons/Save.png' alt='' className={classes.saveIcon}/>
                     <div className={classes.saveTitle}>Save to my list</div>
@@ -16,7 +17,6 @@ const DetailedJobComponent = ({ picture, address, name, title, phone, email, pos
                     <img src='icons/Share.png' alt='' className={classes.shareIcon}/>
                     <div className={classes.shareTitle}>Share</div>
                 </div>
-                <hr className={classes.line}/>
                 <Button
                     className={classes.applyNow}
                     title='Apply now'
